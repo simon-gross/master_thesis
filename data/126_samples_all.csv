@@ -1,0 +1,1314 @@
+sysmsg,sysmsg_permutation,code,code_with_name,usermsg,answer,tokens_in,tokens_out,correct_codes,hits,wrong_hits,usermsg_rag,answer_rag,tokens_in_rag,tokens_out_rag,hits_rag,wrong_hits_rag
+"You are a helpful assistant.
+Your answer should be consise.","intro,consise",CZ,"CZ, ČESKÁ REPUBLIKA",Give me all nuts regions that share a border with the region CZ and have the same NUTS level,"The regions that share a border with CZ at the same NUTS level are DE, AT, SK, and PL.",45,25,"['DE', 'PL', 'AT', 'SK']","['SK', 'PL', 'AT', 'DE']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region CZ.
+    
+This is the answer retrieved from a Graph-database:
+['DE', 'PL', 'AT', 'SK']
+    
+    ","The NUTS regions that share a border with the region CZ are: DE, PL, AT, SK.",107,23,"['SK', 'PL', 'AT', 'DE']",[]
+"You are a helpful assistant.
+Your answer should be consise.","intro,consise",BG,"BG, Bulgaria",Give me all nuts regions that share a border with the region BG and have the same NUTS level,"The regions that share a border with region BG and have the same NUTS level are: RO, RS, MK, GR, and TR.",45,30,"['RO', 'EL']","['MK', 'RO', 'RS', 'TR']",['GR'],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region BG.
+    
+This is the answer retrieved from a Graph-database:
+['RO', 'EL']
+    
+    ",The NUTS regions that share a border with the region BG are 'RO' and 'EL'.,101,21,"['RO', 'EL']",[]
+"You are a helpful assistant.
+Your answer should be consise.","intro,consise",FR1,"FR1, ÎLE DE FRANCE",Give me all nuts regions that share a border with the region FR1 and have the same NUTS level,"The regions that share a border with FR1 at the same NUTS level are FRB, FRC, and FRD.",46,27,"['FRB', 'FRC', 'FRD', 'FRE', 'FRF']","['FRB', 'FRD', 'FRC']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region FR1.
+    
+This is the answer retrieved from a Graph-database:
+['FRB', 'FRC', 'FRD', 'FRE', 'FRF']
+    
+    ","The NUTS regions that share a border with the region FR1 are FRB, FRC, FRD, FRE, and FRF.",116,30,"['FRD', 'FRE', 'FRF', 'FRB', 'FRC']",[]
+"You are a helpful assistant.
+Your answer should be consise.","intro,consise",DEG,"DEG, THÜRINGEN",Give me all nuts regions that share a border with the region DEG and have the same NUTS level,"The regions that share a border with DEG at the same NUTS level are DEE, DEH, and DEI.",46,27,"['DE2', 'DE7', 'DE9', 'DED', 'DEE']",['DEE'],"['DEH', 'DEI']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region DEG.
+    
+This is the answer retrieved from a Graph-database:
+['DE2', 'DE7', 'DE9', 'DED', 'DEE']
+    
+    ","The NUTS regions that share a border with the region DEG are DE2, DE7, DE9, DED, and DEE.",115,31,"['DE9', 'DED', 'DE7', 'DE2', 'DEE']",[]
+"You are a helpful assistant.
+Your answer should be consise.","intro,consise",PL7,"PL7, Makroregion centralny",Give me all nuts regions that share a border with the region PL7 and have the same NUTS level,The regions that share a border with PL7 at the same NUTS level are PL6 and PL8.,46,23,"['PL2', 'PL4', 'PL5', 'PL6', 'PL8', 'PL9']","['PL8', 'PL6']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region PL7.
+    
+This is the answer retrieved from a Graph-database:
+['PL2', 'PL4', 'PL5', 'PL6', 'PL8', 'PL9']
+    
+    ","The NUTS regions that share a border with the region PL7 are: PL2, PL4, PL5, PL6, PL8, PL9.",120,34,"['PL4', 'PL9', 'PL5', 'PL2', 'PL8', 'PL6']",[]
+"You are a helpful assistant.
+Your answer should be consise.","intro,consise",ITI,"ITI, Centro (IT)",Give me all nuts regions that share a border with the region ITI and have the same NUTS level,"The regions that share a border with ITI and have the same NUTS level are ITF, ITG, and ITL.",46,28,"['ITC', 'ITF', 'ITH']","['ITG', 'ITF']",['ITL'],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region ITI.
+    
+This is the answer retrieved from a Graph-database:
+['ITC', 'ITF', 'ITH']
+    
+    ","The NUTS regions that share a border with the region ITI are ITC, ITF, and ITH.",107,25,"['ITC', 'ITF', 'ITH']",[]
+"You are a helpful assistant.
+Your answer should be consise.","intro,consise",PT18,"PT18, Alentejo",Give me all nuts regions that share a border with the region PT18 and have the same NUTS level,"The regions that share a border with PT18 at the same NUTS level are PT11, PT15, and PT16.",46,27,"['PT15', 'PT16', 'PT17', 'ES43', 'ES61']","['PT16', 'PT15', 'PT11']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region PT18.
+    
+This is the answer retrieved from a Graph-database:
+['PT15', 'PT16', 'PT17', 'ES43', 'ES61']
+    
+    ","The NUTS regions that share a border with region PT18 are PT15, PT16, PT17, ES43, and ES61.",116,30,"['ES43', 'ES61', 'PT16', 'PT15', 'PT17']",[]
+"You are a helpful assistant.
+Your answer should be consise.","intro,consise",FRK2,"FRK2, Rhône-Alpes",Give me all nuts regions that share a border with the region FRK2 and have the same NUTS level,The regions that share a border with FRK2 at the same NUTS level are FRK1 and FRK3.,47,26,"['ITC1', 'ITC2', 'FRL0', 'FRK1', 'FRC1', 'FRC2', 'FRJ1']",['FRK1'],['FRK3'],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region FRK2.
+    
+This is the answer retrieved from a Graph-database:
+['ITC1', 'ITC2', 'FRL0', 'FRK1', 'FRC1', 'FRC2', 'FRJ1']
+    
+    ","The NUTS regions that share a border with the region FRK2 are: ITC1, ITC2, FRL0, FRK1, FRC1, FRC2, FRJ1.",132,45,"['FRC2', 'ITC1', 'FRJ1', 'FRK1', 'FRC1', 'FRL0', 'ITC2']",[]
+"You are a helpful assistant.
+Your answer should be consise.","intro,consise",CZ03,"CZ03, Jihozápad",Give me all nuts regions that share a border with the region CZ03 and have the same NUTS level,"The regions that share a border with CZ03 at the same NUTS level are PL01, AT31, and DE23.",46,27,"['AT12', 'CZ02', 'CZ04', 'CZ06', 'AT31', 'DE22', 'DE23']","['DE23', 'AT31']",['PL01'],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region CZ03.
+    
+This is the answer retrieved from a Graph-database:
+['AT12', 'CZ02', 'CZ04', 'CZ06', 'AT31', 'DE22', 'DE23']
+    
+    ","The NUTS regions that share a border with the region CZ03 are: AT12, CZ02, CZ04, CZ06, AT31, DE22, DE23.",127,37,"['DE22', 'AT31', 'AT12', 'CZ02', 'DE23', 'CZ04', 'CZ06']",[]
+"You are a helpful assistant.
+Your answer should be consise.","intro,consise",DEF0,"DEF0, Schleswig-Holstein",Give me all nuts regions that share a border with the region DEF0 and have the same NUTS level,"The nuts regions that share a border with region DEF0 and have the same NUTS level are regions DEF1, DEF2, DEF3, etc.",46,32,"['DE93', 'DK03', 'DE60', 'DE80']",[],"['DEF3', 'DEF2', 'DEF1']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region DEF0.
+    
+This is the answer retrieved from a Graph-database:
+['DE93', 'DK03', 'DE60', 'DE80']
+    
+    ","The NUTS regions that share a border with the region DEF0 are DE93, DK03, DE60, and DE80.",112,28,"['DE60', 'DE80', 'DK03', 'DE93']",[]
+"You are a helpful assistant.
+Your answer should be consise.","intro,consise",RO41,"RO41, Sud-Vest Oltenia",Give me all nuts regions that share a border with the region RO41 and have the same NUTS level,The regions that share a border with RO41 at the same NUTS level are RO42 and RO21.,46,23,"['RO12', 'RO31', 'RO42', 'BG31']","['RO21', 'RO42']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region RO41.
+    
+This is the answer retrieved from a Graph-database:
+['RO12', 'RO31', 'RO42', 'BG31']
+    
+    ","The NUTS regions that share a border with region RO41 are: RO12, RO31, RO42, and BG31.",112,28,"['RO31', 'RO12', 'RO42', 'BG31']",[]
+"You are a helpful assistant.
+Your answer should be consise.","intro,consise",DEB3I,"DEB3I, Rhein-Pfalz-Kreis",Give me all nuts regions that share a border with the region DEB3I and have the same NUTS level,"The regions that share a border with DEB3I at the same NUTS level are DEB3H, DEB3J, and DEB3K.",48,35,"['DE123', 'DE715', 'DEB3C', 'DEB3E', 'DEB3H', 'DE126', 'DE128', 'DEB31', 'DEB34', 'DEB36', 'DEB38', 'DEB39']","['DEB3K', 'DEB3H', 'DEB3J']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region DEB3I.
+    
+This is the answer retrieved from a Graph-database:
+['DE123', 'DE715', 'DEB3C', 'DEB3E', 'DEB3H', 'DE126', 'DE128', 'DEB31', 'DEB34', 'DEB36', 'DEB38', 'DEB39']
+    
+    ","The NUTS regions that share a border with the region DEB3I are: DE123, DE715, DEB3C, DEB3E, DEB3H, DE126, DE128, DEB31, DEB34, DEB36, DEB38, DEB39.",157,65,"['DEB3C', 'DEB38', 'DEB34', 'DEB36', 'DE123', 'DE128', 'DEB3E', 'DE126', 'DEB31', 'DEB3H', 'DEB39', 'DE715']",[]
+"You are a helpful assistant.
+Your answer should be consise.","intro,consise",PL515,"PL515, Jeleniogórski",Give me all nuts regions that share a border with the region PL515 and have the same NUTS level,"The regions that share a border with PL515 at the same NUTS level are PL514, PL516, and PL524.",46,27,"['PL516', 'PL517', 'PL518', 'DED2D', 'CZ051', 'CZ052', 'PL432']","['PL516', 'PL524', 'PL514']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region PL515.
+    
+This is the answer retrieved from a Graph-database:
+['PL516', 'PL517', 'PL518', 'DED2D', 'CZ051', 'CZ052', 'PL432']
+    
+    ","The NUTS regions that share a border with region PL515 are: PL516, PL517, PL518, DED2D, CZ051, CZ052, PL432.",127,38,"['DED2D', 'PL432', 'PL516', 'PL518', 'CZ051', 'PL517', 'CZ052']",[]
+"You are a helpful assistant.
+Your answer should be consise.","intro,consise",LT022,"LT022, Kauno apskritis",Give me all nuts regions that share a border with the region LT022 and have the same NUTS level,"The regions that share a border with LT022 at the same NUTS level are LT011, LT012, LT013, LT014, LT021, and LT023.",46,36,"['LT011', 'LT021', 'LT024', 'LT025', 'LT026', 'LT027']","['LT023', 'LT011', 'LT021']","['LT014', 'LT013', 'LT012']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region LT022.
+    
+This is the answer retrieved from a Graph-database:
+['LT011', 'LT021', 'LT024', 'LT025', 'LT026', 'LT027']
+    
+    ","The NUTS regions that share a border with region LT022 are: LT011, LT021, LT024, LT025, LT026, LT027.",120,33,"['LT011', 'LT026', 'LT021', 'LT025', 'LT027', 'LT024']",[]
+"You are a helpful assistant.
+Your answer should be consise.","intro,consise",SE331,"SE331, Västerbottens län",Give me all nuts regions that share a border with the region SE331 and have the same NUTS level,"The regions that share a border with SE331 at the same NUTS level are SE332, SE332, SE333, and SE334.",46,30,"['SE321', 'SE322', 'SE332']",['SE332'],"['SE333', 'SE334']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region SE331.
+    
+This is the answer retrieved from a Graph-database:
+['SE321', 'SE322', 'SE332']
+    
+    ","The NUTS regions that share a border with SE331 are SE321, SE322, and SE332.",108,23,"['SE322', 'SE321', 'SE332']",[]
+"You are a helpful assistant.
+Your answer should be consise.","intro,consise",IE051,"IE051, Mid-West",Give me all nuts regions that share a border with the region IE051 and have the same NUTS level,"The regions that share a border with IE051 at the same NUTS level are IE041, IE042, IE043, IE052, and IE061.",46,33,"['IE052', 'IE053', 'IE042', 'IE063']","['IE041', 'IE042', 'IE061', 'IE052']",['IE043'],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region IE051.
+    
+This is the answer retrieved from a Graph-database:
+['IE052', 'IE053', 'IE042', 'IE063']
+    
+    ","The NUTS regions that share a border with region IE051 are IE052, IE053, IE042, and IE063.",112,27,"['IE053', 'IE063', 'IE042', 'IE052']",[]
+"You are a helpful assistant.
+Your answer should be consise.","intro,consise",ES615,"ES615, Huelva",Give me all nuts regions that share a border with the region ES615 and have the same NUTS level,"The regions that share a border with ES615 and have the same NUTS level are ES611, ES612, ES613, ES614, ES616, and ES617.",46,37,"['PT150', 'ES431', 'ES612', 'ES618', 'PT184']","['ES614', 'ES616', 'ES617', 'ES613', 'ES612', 'ES611']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region ES615.
+    
+This is the answer retrieved from a Graph-database:
+['PT150', 'ES431', 'ES612', 'ES618', 'PT184']
+    
+    ",I don't know the answer to that question.,116,10,[],[]
+"You are a helpful assistant.
+Your answer should be consise.","intro,consise",FRK21,"FRK21, Ain",Give me all nuts regions that share a border with the region FRK21 and have the same NUTS level,"The regions that share a border with FRK21 at the same NUTS level are FRK22, FRK23, and FRK24.",47,31,"['FRK24', 'FRK26', 'FRK27', 'FRK28', 'FRC13', 'FRC22']","['FRK24', 'FRK22', 'FRK23']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region FRK21.
+    
+This is the answer retrieved from a Graph-database:
+['FRK24', 'FRK26', 'FRK27', 'FRK28', 'FRC13', 'FRC22']
+    
+    ","The NUTS regions that share a border with the region FRK21 are: FRK24, FRK26, FRK27, FRK28, FRC13, FRC22.",127,41,"['FRC22', 'FRC13', 'FRK24', 'FRK28', 'FRK26', 'FRK27']",[]
+"You are a helpful assistant.
+Your answer should be consise.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,consise,only_codes",CZ,"CZ, ČESKÁ REPUBLIKA",Give me all nuts regions that share a border with the region CZ and have the same NUTS level,"CZ01, CZ02, CZ03, CZ04, CZ05, CZ06, CZ07, CZ08, CZ09, CZ0A, CZ0B, CZ0C, CZ0D, CZ0E, CZ0F, CZ0G, CZ0H, CZ0I, CZ0J, CZ0K, CZ0L, CZ0M, CZ0N, CZ0O, CZ0P, CZ0Q, CZ0R, CZ0S, CZ0T, CZ0U, CZ0V, CZ0W, CZ0X, CZ0Y, CZ0Z.",63,132,"['DE', 'PL', 'AT', 'SK']","['CZ02', 'CZ08', 'CZ03', 'CZ07', 'CZ04', 'CZ06', 'CZ05', 'CZ01']","['CZ0S', 'CZ0G', 'CZ0K', 'CZ0M', 'CZ0Z', 'CZ0L', 'CZ0T', 'CZ0D', 'CZ0P', 'CZ0E', 'CZ0U', 'CZ0O', 'CZ0J', 'CZ0X', 'CZ0N', 'CZ0A', 'CZ0B', 'CZ0I', 'CZ0Y', 'CZ09', 'CZ0Q', 'CZ0R', 'CZ0W', 'CZ0C', 'CZ0V', 'CZ0H', 'CZ0F']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region CZ.
+    
+This is the answer retrieved from a Graph-database:
+['DE', 'PL', 'AT', 'SK']
+    
+    ","The NUTS regions that share a border with the region CZ are: DE, PL, AT, SK.",107,23,"['SK', 'PL', 'AT', 'DE']",[]
+"You are a helpful assistant.
+Your answer should be consise.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,consise,only_codes",BG,"BG, Bulgaria",Give me all nuts regions that share a border with the region BG and have the same NUTS level,"BG31, BG32, BG33, BG34, BG41, BG42, BG43, BG51, BG52, BG61, BG62, BG63, BG71, BG72, BG81, BG82",63,47,"['RO', 'EL']","['BG41', 'BG34', 'BG42', 'BG33', 'BG32', 'BG31']","['BG43', 'BG72', 'BG82', 'BG71', 'BG51', 'BG52', 'BG61', 'BG62', 'BG63', 'BG81']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region BG.
+    
+This is the answer retrieved from a Graph-database:
+['RO', 'EL']
+    
+    ",The NUTS regions that share a border with the region BG are 'RO' and 'EL'.,101,21,"['RO', 'EL']",[]
+"You are a helpful assistant.
+Your answer should be consise.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,consise,only_codes",FR1,"FR1, ÎLE DE FRANCE",Give me all nuts regions that share a border with the region FR1 and have the same NUTS level,"FRB, FRC, FRD, FRE, FRF, FRG, FRH, FRI, FRJ, FRK, FRL, FRM, FRN, FRO, FRP, FRQ, FRR, FRS, FRT, FRU, FRV, FRW, FRX, FRY, FRZ",64,73,"['FRB', 'FRC', 'FRD', 'FRE', 'FRF']","['FRD', 'FRI', 'FRM', 'FRH', 'FRK', 'FRE', 'FRY', 'FRF', 'FRG', 'FRL', 'FRB', 'FRC', 'FRJ']","['FRP', 'FRV', 'FRQ', 'FRW', 'FRX', 'FRO', 'FRT', 'FRR', 'FRU', 'FRZ', 'FRN', 'FRS']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region FR1.
+    
+This is the answer retrieved from a Graph-database:
+['FRB', 'FRC', 'FRD', 'FRE', 'FRF']
+    
+    ","The NUTS regions that share a border with the region FR1 are: FRB, FRC, FRD, FRE, FRF.",116,30,"['FRD', 'FRE', 'FRF', 'FRB', 'FRC']",[]
+"You are a helpful assistant.
+Your answer should be consise.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,consise,only_codes",DEG,"DEG, THÜRINGEN",Give me all nuts regions that share a border with the region DEG and have the same NUTS level,"DE21, DE22, DE23, DE24, DE25, DE26, DE27, DE28, DE29",64,26,"['DE2', 'DE7', 'DE9', 'DED', 'DEE']","['DE25', 'DE22', 'DE24', 'DE23', 'DE27', 'DE26', 'DE21']","['DE29', 'DE28']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region DEG.
+    
+This is the answer retrieved from a Graph-database:
+['DE2', 'DE7', 'DE9', 'DED', 'DEE']
+    
+    ","The NUTS regions that share a border with the region DEG are DE2, DE7, DE9, DED, and DEE.",115,31,"['DE9', 'DED', 'DE7', 'DE2', 'DEE']",[]
+"You are a helpful assistant.
+Your answer should be consise.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,consise,only_codes",PL7,"PL7, Makroregion centralny",Give me all nuts regions that share a border with the region PL7 and have the same NUTS level,"PL2, PL3, PL4, PL5, PL6.",64,15,"['PL2', 'PL4', 'PL5', 'PL6', 'PL8', 'PL9']","['PL4', 'PL5', 'PL2', 'PL6', 'PL3']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region PL7.
+    
+This is the answer retrieved from a Graph-database:
+['PL2', 'PL4', 'PL5', 'PL6', 'PL8', 'PL9']
+    
+    ","The NUTS regions that share a border with region PL7 are: PL2, PL4, PL5, PL6, PL8, PL9.",120,33,"['PL4', 'PL9', 'PL5', 'PL2', 'PL8', 'PL6']",[]
+"You are a helpful assistant.
+Your answer should be consise.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,consise,only_codes",ITI,"ITI, Centro (IT)",Give me all nuts regions that share a border with the region ITI and have the same NUTS level,"ITF0, ITF1, ITF2, ITF3, ITF4, ITF5, ITF6, ITF7, ITF8, ITF9, ITG0, ITG1, ITG2, ITG3, ITG4, ITG5, ITG6, ITG7, ITG8, ITG9, ITF, ITG",64,85,"['ITC', 'ITF', 'ITH']","['ITF1', 'ITF3', 'ITG', 'ITF5', 'ITF2', 'ITF4', 'ITG1', 'ITG2', 'ITF6', 'ITF']","['ITF0', 'ITG3', 'ITF9', 'ITG8', 'ITG6', 'ITG9', 'ITF8', 'ITF7', 'ITG7', 'ITG5', 'ITG0', 'ITG4']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region ITI.
+    
+This is the answer retrieved from a Graph-database:
+['ITC', 'ITF', 'ITH']
+    
+    ","The NUTS regions that share a border with the region ITI are ITC, ITF, and ITH.",107,25,"['ITC', 'ITF', 'ITH']",[]
+"You are a helpful assistant.
+Your answer should be consise.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,consise,only_codes",PT18,"PT18, Alentejo",Give me all nuts regions that share a border with the region PT18 and have the same NUTS level,"PT11, PT15, PT16, PT17, PT19",64,14,"['PT15', 'PT16', 'PT17', 'ES43', 'ES61']","['PT19', 'PT11', 'PT16', 'PT15', 'PT17']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region PT18.
+    
+This is the answer retrieved from a Graph-database:
+['PT15', 'PT16', 'PT17', 'ES43', 'ES61']
+    
+    ","The NUTS regions that share a border with region PT18 are PT15, PT16, PT17, ES43, and ES61.",116,30,"['ES43', 'ES61', 'PT16', 'PT15', 'PT17']",[]
+"You are a helpful assistant.
+Your answer should be consise.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,consise,only_codes",FRK2,"FRK2, Rhône-Alpes",Give me all nuts regions that share a border with the region FRK2 and have the same NUTS level,"FRK2, FRK1, FRK3, FRK4",65,15,"['ITC1', 'ITC2', 'FRL0', 'FRK1', 'FRC1', 'FRC2', 'FRJ1']","['FRK1', 'FRK2']","['FRK4', 'FRK3']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region FRK2.
+    
+This is the answer retrieved from a Graph-database:
+['ITC1', 'ITC2', 'FRL0', 'FRK1', 'FRC1', 'FRC2', 'FRJ1']
+    
+    ","The NUTS regions that share a border with the region FRK2 are: ITC1, ITC2, FRL0, FRK1, FRC1, FRC2, FRJ1.",132,45,"['FRC2', 'ITC1', 'FRJ1', 'FRK1', 'FRC1', 'FRL0', 'ITC2']",[]
+"You are a helpful assistant.
+Your answer should be consise.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,consise,only_codes",CZ03,"CZ03, Jihozápad",Give me all nuts regions that share a border with the region CZ03 and have the same NUTS level,"CZ01, CZ02, CZ04, CZ05.",64,13,"['AT12', 'CZ02', 'CZ04', 'CZ06', 'AT31', 'DE22', 'DE23']","['CZ04', 'CZ02', 'CZ05', 'CZ01']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region CZ03.
+    
+This is the answer retrieved from a Graph-database:
+['AT12', 'CZ02', 'CZ04', 'CZ06', 'AT31', 'DE22', 'DE23']
+    
+    ","The NUTS regions that share a border with the region CZ03 are: AT12, CZ02, CZ04, CZ06, AT31, DE22, DE23.",127,37,"['DE22', 'AT31', 'AT12', 'CZ02', 'DE23', 'CZ04', 'CZ06']",[]
+"You are a helpful assistant.
+Your answer should be consise.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,consise,only_codes",DEF0,"DEF0, Schleswig-Holstein",Give me all nuts regions that share a border with the region DEF0 and have the same NUTS level,"DEF0, DEA1, DEA2, DEB3, DEB4, DEB5, DEB6, DEB7, DEB1, DEB2",64,36,"['DE93', 'DK03', 'DE60', 'DE80']","['DEB2', 'DEA1', 'DEA2', 'DEB1', 'DEF0', 'DEB3']","['DEB7', 'DEB6', 'DEB4', 'DEB5']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region DEF0.
+    
+This is the answer retrieved from a Graph-database:
+['DE93', 'DK03', 'DE60', 'DE80']
+    
+    ","The NUTS regions that share a border with the region DEF0 are DE93, DK03, DE60, and DE80.",112,28,"['DE60', 'DE80', 'DK03', 'DE93']",[]
+"You are a helpful assistant.
+Your answer should be consise.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,consise,only_codes",RO41,"RO41, Sud-Vest Oltenia",Give me all nuts regions that share a border with the region RO41 and have the same NUTS level,"RO12, RO21, RO22, RO31, RO42.",64,15,"['RO12', 'RO31', 'RO42', 'BG31']","['RO12', 'RO42', 'RO31', 'RO22', 'RO21']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region RO41.
+    
+This is the answer retrieved from a Graph-database:
+['RO12', 'RO31', 'RO42', 'BG31']
+    
+    ","The NUTS regions that share a border with region RO41 are: RO12, RO31, RO42, and BG31.",112,28,"['RO31', 'RO12', 'RO42', 'BG31']",[]
+"You are a helpful assistant.
+Your answer should be consise.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,consise,only_codes",DEB3I,"DEB3I, Rhein-Pfalz-Kreis",Give me all nuts regions that share a border with the region DEB3I and have the same NUTS level,"DE11, DE12, DE13, DE14, DE21, DE22, DE23, DE24, DE25, DE26, DE27, DE30, DE40, DE50, DE60, DE71, DE72, DE80, DE91, DE92, DEA1, DEB1, DEB2, DEB3J",66,76,"['DE123', 'DE715', 'DEB3C', 'DEB3E', 'DEB3H', 'DE126', 'DE128', 'DEB31', 'DEB34', 'DEB36', 'DEB38', 'DEB39']","['DEB2', 'DE92', 'DE21', 'DE50', 'DE13', 'DE24', 'DE23', 'DE71', 'DEB3J', 'DE30', 'DE12', 'DE91', 'DE26', 'DE25', 'DE22', 'DE80', 'DE40', 'DE60', 'DE72', 'DE14', 'DEA1', 'DEB1', 'DE27', 'DE11']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region DEB3I.
+    
+This is the answer retrieved from a Graph-database:
+['DE123', 'DE715', 'DEB3C', 'DEB3E', 'DEB3H', 'DE126', 'DE128', 'DEB31', 'DEB34', 'DEB36', 'DEB38', 'DEB39']
+    
+    ","The NUTS regions that share a border with region DEB3I are: DE123, DE715, DEB3C, DEB3E, DEB3H, DE126, DE128, DEB31, DEB34, DEB36, DEB38, DEB39.",157,64,"['DEB3C', 'DEB38', 'DEB34', 'DEB36', 'DE123', 'DE128', 'DEB3E', 'DE126', 'DEB31', 'DEB3H', 'DEB39', 'DE715']",[]
+"You are a helpful assistant.
+Your answer should be consise.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,consise,only_codes",PL515,"PL515, Jeleniogórski",Give me all nuts regions that share a border with the region PL515 and have the same NUTS level,"PL41, PL51, PL61, PL61, PL62, PL63, PL71, PL72, PL81, PL82, PL91, PL92",64,35,"['PL516', 'PL517', 'PL518', 'DED2D', 'CZ051', 'CZ052', 'PL432']","['PL82', 'PL63', 'PL81', 'PL91', 'PL72', 'PL51', 'PL92', 'PL41', 'PL61', 'PL71', 'PL62']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region PL515.
+    
+This is the answer retrieved from a Graph-database:
+['PL516', 'PL517', 'PL518', 'DED2D', 'CZ051', 'CZ052', 'PL432']
+    
+    ","The NUTS regions that share a border with region PL515 are: PL516, PL517, PL518, DED2D, CZ051, CZ052, PL432.",127,38,"['DED2D', 'PL432', 'PL516', 'PL518', 'CZ051', 'PL517', 'CZ052']",[]
+"You are a helpful assistant.
+Your answer should be consise.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,consise,only_codes",LT022,"LT022, Kauno apskritis",Give me all nuts regions that share a border with the region LT022 and have the same NUTS level,"LT011, LT012, LT013, LT014, LT015, LT021, LT023, LT024, LT025, LT031, LT032, LT033, LT034, LT041, LT042, LT043, LT044, LT051, LT052, LT053, LT054, LT061, LT062, LT063, LT064, LT071, LT072, LT073, LT074, LT081, LT082, LT083, LT084, LT091, LT092, LT093, LT094, LT101, LT102, LT103, LT104, LT111, LT112, LT113, LT114, LT121, LT122, LT123, LT124, LT131, LT132, LT133, LT134, LT141, LT142, LT143, LT144, LT145, LT146, LT147, LT148, LT151, LT152, LT153, LT154, LT155, LT156, LT157, LT158, LT159, LT160, LT161, LT162, LT163, LT164, LT165, LT166, LT167, LT168, LT169, LT170, LT171, LT172, LT173, LT174, LT175, LT176, LT177, LT178, LT179, LT180, LT181, LT182, LT183, LT184, LT185, LT186, LT187, LT188, LT189,",64,300,"['LT011', 'LT021', 'LT024', 'LT025', 'LT026', 'LT027']","['LT023', 'LT011', 'LT021', 'LT025', 'LT024']","['LT101', 'LT111', 'LT133', 'LT172', 'LT146', 'LT072', 'LT104', 'LT132', 'LT181', 'LT051', 'LT015', 'LT071', 'LT123', 'LT041', 'LT162', 'LT166', 'LT113', 'LT179', 'LT155', 'LT081', 'LT053', 'LT183', 'LT124', 'LT141', 'LT033', 'LT094', 'LT168', 'LT043', 'LT052', 'LT082', 'LT169', 'LT144', 'LT184', 'LT091', 'LT044', 'LT145', 'LT176', 'LT177', 'LT159', 'LT148', 'LT042', 'LT014', 'LT114', 'LT121', 'LT158', 'LT102', 'LT142', 'LT013', 'LT031', 'LT163', 'LT092', 'LT032', 'LT180', 'LT167', 'LT103', 'LT187', 'LT061', 'LT134', 'LT153', 'LT084', 'LT064', 'LT093', 'LT156', 'LT034', 'LT188', 'LT062', 'LT165', 'LT083', 'LT157', 'LT186', 'LT170', 'LT171', 'LT151', 'LT154', 'LT152', 'LT164', 'LT147', 'LT112', 'LT182', 'LT073', 'LT185', 'LT189', 'LT143', 'LT012', 'LT161', 'LT174', 'LT178', 'LT054', 'LT131', 'LT074', 'LT122', 'LT160', 'LT175', 'LT173', 'LT063']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region LT022.
+    
+This is the answer retrieved from a Graph-database:
+['LT011', 'LT021', 'LT024', 'LT025', 'LT026', 'LT027']
+    
+    ","The NUTS regions that share a border with region LT022 are: LT011, LT021, LT024, LT025, LT026, LT027.",120,33,"['LT011', 'LT026', 'LT021', 'LT025', 'LT027', 'LT024']",[]
+"You are a helpful assistant.
+Your answer should be consise.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,consise,only_codes",SE331,"SE331, Västerbottens län",Give me all nuts regions that share a border with the region SE331 and have the same NUTS level,"SE32, SE33, SE34, SE35.",64,12,"['SE321', 'SE322', 'SE332']","['SE32', 'SE33']","['SE34', 'SE35']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region SE331.
+    
+This is the answer retrieved from a Graph-database:
+['SE321', 'SE322', 'SE332']
+    
+    ","The NUTS regions that share a border with SE331 are SE321, SE322, and SE332.",108,23,"['SE322', 'SE321', 'SE332']",[]
+"You are a helpful assistant.
+Your answer should be consise.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,consise,only_codes",IE051,"IE051, Mid-West",Give me all nuts regions that share a border with the region IE051 and have the same NUTS level,"IE041, IE042, IE052, IE053, IE061, IE062",64,17,"['IE052', 'IE053', 'IE042', 'IE063']","['IE042', 'IE053', 'IE041', 'IE061', 'IE062', 'IE052']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region IE051.
+    
+This is the answer retrieved from a Graph-database:
+['IE052', 'IE053', 'IE042', 'IE063']
+    
+    ","The NUTS regions that share a border with region IE051 are IE052, IE053, IE042, and IE063.",112,27,"['IE053', 'IE063', 'IE042', 'IE052']",[]
+"You are a helpful assistant.
+Your answer should be consise.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,consise,only_codes",ES615,"ES615, Huelva",Give me all nuts regions that share a border with the region ES615 and have the same NUTS level,"ES611, ES612, ES614, ES616.",64,12,"['PT150', 'ES431', 'ES612', 'ES618', 'PT184']","['ES614', 'ES612', 'ES611', 'ES616']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region ES615.
+    
+This is the answer retrieved from a Graph-database:
+['PT150', 'ES431', 'ES612', 'ES618', 'PT184']
+    
+    ","The NUTS regions that share a border with the region ES615 are: PT150, ES431, ES612, ES618, PT184.",116,31,"['ES618', 'ES431', 'PT150', 'ES612', 'PT184']",[]
+"You are a helpful assistant.
+Your answer should be consise.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,consise,only_codes",FRK21,"FRK21, Ain",Give me all nuts regions that share a border with the region FRK21 and have the same NUTS level,"FRK22, FRK23, FRK24, FRK25, FRK26, FRK27, FRK28, FRK29",65,31,"['FRK24', 'FRK26', 'FRK27', 'FRK28', 'FRC13', 'FRC22']","['FRK25', 'FRK26', 'FRK24', 'FRK23', 'FRK28', 'FRK22', 'FRK27']",['FRK29'],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region FRK21.
+    
+This is the answer retrieved from a Graph-database:
+['FRK24', 'FRK26', 'FRK27', 'FRK28', 'FRC13', 'FRC22']
+    
+    ","The NUTS regions that share a border with FRK21 are FRK24, FRK26, FRK27, FRK28, FRC13, and FRC22.",127,39,"['FRC22', 'FRC13', 'FRK24', 'FRK28', 'FRK26', 'FRK27']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should be consise.","intro,details,consise",CZ,"CZ, ČESKÁ REPUBLIKA",Give me all nuts regions that share a border with the region CZ and have the same NUTS level,"The NUTS regions that share a border with CZ at the same NUTS level are:
+- DE - Germany
+- AT - Austria
+- SK - Slovakia",54,34,"['DE', 'PL', 'AT', 'SK']","['SK', 'AT', 'DE']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region CZ.
+    
+This is the answer retrieved from a Graph-database:
+['DE', 'PL', 'AT', 'SK']
+    
+    ","The NUTS regions that share a border with the region CZ are: DE, PL, AT, SK.",107,23,"['SK', 'PL', 'AT', 'DE']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should be consise.","intro,details,consise",BG,"BG, Bulgaria",Give me all nuts regions that share a border with the region BG and have the same NUTS level,"The NUTS regions that share a border with BG (Bulgaria) at the same NUTS level are:
+- NUTS 2: TR (Turkey), GR (Greece), RS (Serbia), MK (North Macedonia), RO (Romania)",54,56,"['RO', 'EL']","['MK', 'RO', 'RS', 'TR']",['GR'],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region BG.
+    
+This is the answer retrieved from a Graph-database:
+['RO', 'EL']
+    
+    ",The NUTS regions that share a border with the region BG are 'RO' and 'EL'.,101,21,"['RO', 'EL']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should be consise.","intro,details,consise",FR1,"FR1, ÎLE DE FRANCE",Give me all nuts regions that share a border with the region FR1 and have the same NUTS level,"The NUTS regions that share a border with FR1 at the same NUTS level are FRB, FRC, and FRD.",55,30,"['FRB', 'FRC', 'FRD', 'FRE', 'FRF']","['FRB', 'FRD', 'FRC']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region FR1.
+    
+This is the answer retrieved from a Graph-database:
+['FRB', 'FRC', 'FRD', 'FRE', 'FRF']
+    
+    ","The NUTS regions that share a border with the region FR1 are: FRB, FRC, FRD, FRE, FRF.",116,30,"['FRD', 'FRE', 'FRF', 'FRB', 'FRC']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should be consise.","intro,details,consise",DEG,"DEG, THÜRINGEN",Give me all nuts regions that share a border with the region DEG and have the same NUTS level,"The NUTS regions that share a border with DEG at the same NUTS level are:
+- DEE (Germany)
+- DEH (Germany)
+- DEI (Germany)",55,39,"['DE2', 'DE7', 'DE9', 'DED', 'DEE']",['DEE'],"['DEH', 'DEI']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region DEG.
+    
+This is the answer retrieved from a Graph-database:
+['DE2', 'DE7', 'DE9', 'DED', 'DEE']
+    
+    ","The NUTS regions that share a border with the region DEG are DE2, DE7, DE9, DED, and DEE.",115,31,"['DE9', 'DED', 'DE7', 'DE2', 'DEE']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should be consise.","intro,details,consise",PL7,"PL7, Makroregion centralny",Give me all nuts regions that share a border with the region PL7 and have the same NUTS level,"The NUTS regions that share a border with PL7 at the same NUTS level are PL4, PL6, and PL8.",55,30,"['PL2', 'PL4', 'PL5', 'PL6', 'PL8', 'PL9']","['PL4', 'PL8', 'PL6']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region PL7.
+    
+This is the answer retrieved from a Graph-database:
+['PL2', 'PL4', 'PL5', 'PL6', 'PL8', 'PL9']
+    
+    ",I don't know the answer to that question.,120,10,[],[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should be consise.","intro,details,consise",ITI,"ITI, Centro (IT)",Give me all nuts regions that share a border with the region ITI and have the same NUTS level,"The NUTS regions that share a border with ITI at the same NUTS level are:
+- ITF (Trentino-Alto Adige/Südtirol)
+- ITG (Veneto)
+- ITD (Lombardia)",55,54,"['ITC', 'ITF', 'ITH']","['ITG', 'ITF']",['ITD'],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region ITI.
+    
+This is the answer retrieved from a Graph-database:
+['ITC', 'ITF', 'ITH']
+    
+    ","The NUTS regions that share a border with the region ITI are: ITC, ITF, ITH.",107,25,"['ITC', 'ITF', 'ITH']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should be consise.","intro,details,consise",PT18,"PT18, Alentejo",Give me all nuts regions that share a border with the region PT18 and have the same NUTS level,"The NUTS regions that share a border with PT18 at the same NUTS level are:
+- ES11 (Norte)
+- ES12 (Centro)
+- ES13 (Lisboa)
+- ES14 (Alentejo)",55,51,"['PT15', 'PT16', 'PT17', 'ES43', 'ES61']","['ES13', 'ES11', 'ES12']",['ES14'],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region PT18.
+    
+This is the answer retrieved from a Graph-database:
+['PT15', 'PT16', 'PT17', 'ES43', 'ES61']
+    
+    ","The NUTS regions that share a border with region PT18 are PT15, PT16, PT17, ES43, and ES61.",116,30,"['ES43', 'ES61', 'PT16', 'PT15', 'PT17']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should be consise.","intro,details,consise",FRK2,"FRK2, Rhône-Alpes",Give me all nuts regions that share a border with the region FRK2 and have the same NUTS level,"The NUTS regions that share a border with FRK2 at the same NUTS level are FRK1, FRK3, and FRK4.",56,34,"['ITC1', 'ITC2', 'FRL0', 'FRK1', 'FRC1', 'FRC2', 'FRJ1']",['FRK1'],"['FRK4', 'FRK3']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region FRK2.
+    
+This is the answer retrieved from a Graph-database:
+['ITC1', 'ITC2', 'FRL0', 'FRK1', 'FRC1', 'FRC2', 'FRJ1']
+    
+    ","The NUTS regions that share a border with the region FRK2 are: ITC1, ITC2, FRL0, FRK1, FRC1, FRC2, FRJ1.",132,45,"['FRC2', 'ITC1', 'FRJ1', 'FRK1', 'FRC1', 'FRL0', 'ITC2']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should be consise.","intro,details,consise",CZ03,"CZ03, Jihozápad",Give me all nuts regions that share a border with the region CZ03 and have the same NUTS level,"The NUTS regions that share a border with CZ03 at the same NUTS level are PL71, DE71, and AT31.",55,30,"['AT12', 'CZ02', 'CZ04', 'CZ06', 'AT31', 'DE22', 'DE23']","['DE71', 'PL71', 'AT31']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region CZ03.
+    
+This is the answer retrieved from a Graph-database:
+['AT12', 'CZ02', 'CZ04', 'CZ06', 'AT31', 'DE22', 'DE23']
+    
+    ","The NUTS regions that share a border with the region CZ03 are: AT12, CZ02, CZ04, CZ06, AT31, DE22, DE23.",127,37,"['DE22', 'AT31', 'AT12', 'CZ02', 'DE23', 'CZ04', 'CZ06']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should be consise.","intro,details,consise",DEF0,"DEF0, Schleswig-Holstein",Give me all nuts regions that share a border with the region DEF0 and have the same NUTS level,"The NUTS regions that share a border with DEF0 at the same NUTS level are DEF1, DEF2, and DEF3.",55,30,"['DE93', 'DK03', 'DE60', 'DE80']",[],"['DEF3', 'DEF2', 'DEF1']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region DEF0.
+    
+This is the answer retrieved from a Graph-database:
+['DE93', 'DK03', 'DE60', 'DE80']
+    
+    ","The NUTS regions that share a border with the region DEF0 are DE93, DK03, DE60, and DE80.",112,28,"['DE60', 'DE80', 'DK03', 'DE93']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should be consise.","intro,details,consise",RO41,"RO41, Sud-Vest Oltenia",Give me all nuts regions that share a border with the region RO41 and have the same NUTS level,"The NUTS regions that share a border with RO41 at the same NUTS level are:
+- RO42 (North-East)
+- RO21 (South-East)
+- RO32 (South)",55,41,"['RO12', 'RO31', 'RO42', 'BG31']","['RO21', 'RO42', 'RO32']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region RO41.
+    
+This is the answer retrieved from a Graph-database:
+['RO12', 'RO31', 'RO42', 'BG31']
+    
+    ","The NUTS regions that share a border with region RO41 are: RO12, RO31, RO42, BG31.",112,27,"['RO31', 'RO12', 'RO42', 'BG31']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should be consise.","intro,details,consise",DEB3I,"DEB3I, Rhein-Pfalz-Kreis",Give me all nuts regions that share a border with the region DEB3I and have the same NUTS level,"The NUTS regions that share a border with DEB3I at the same NUTS level are DEB3H, DEB3J, and DEB3K.",57,38,"['DE123', 'DE715', 'DEB3C', 'DEB3E', 'DEB3H', 'DE126', 'DE128', 'DEB31', 'DEB34', 'DEB36', 'DEB38', 'DEB39']","['DEB3K', 'DEB3H', 'DEB3J']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region DEB3I.
+    
+This is the answer retrieved from a Graph-database:
+['DE123', 'DE715', 'DEB3C', 'DEB3E', 'DEB3H', 'DE126', 'DE128', 'DEB31', 'DEB34', 'DEB36', 'DEB38', 'DEB39']
+    
+    ","The NUTS regions that share a border with the region DEB3I are: DE123, DE715, DEB3C, DEB3E, DEB3H, DE126, DE128, DEB31, DEB34, DEB36, DEB38, DEB39.",157,65,"['DEB3C', 'DEB38', 'DEB34', 'DEB36', 'DE123', 'DE128', 'DEB3E', 'DE126', 'DEB31', 'DEB3H', 'DEB39', 'DE715']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should be consise.","intro,details,consise",PL515,"PL515, Jeleniogórski",Give me all nuts regions that share a border with the region PL515 and have the same NUTS level,"The NUTS regions that share a border with PL515 at the same NUTS level are:
+- PL514 (Podlaskie)
+- PL516 (Warmińsko-Mazurskie)",55,44,"['PL516', 'PL517', 'PL518', 'DED2D', 'CZ051', 'CZ052', 'PL432']","['PL516', 'PL514']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region PL515.
+    
+This is the answer retrieved from a Graph-database:
+['PL516', 'PL517', 'PL518', 'DED2D', 'CZ051', 'CZ052', 'PL432']
+    
+    ","The NUTS regions that share a border with region PL515 are: PL516, PL517, PL518, DED2D, CZ051, CZ052, PL432.",127,38,"['DED2D', 'PL432', 'PL516', 'PL518', 'CZ051', 'PL517', 'CZ052']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should be consise.","intro,details,consise",LT022,"LT022, Kauno apskritis",Give me all nuts regions that share a border with the region LT022 and have the same NUTS level,"The NUTS regions that share a border with LT022 at the same NUTS level are LT011, LT012, LT013, LT014, LT015, LT021, and LT023.",55,42,"['LT011', 'LT021', 'LT024', 'LT025', 'LT026', 'LT027']","['LT023', 'LT011', 'LT021']","['LT014', 'LT015', 'LT013', 'LT012']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region LT022.
+    
+This is the answer retrieved from a Graph-database:
+['LT011', 'LT021', 'LT024', 'LT025', 'LT026', 'LT027']
+    
+    ","The NUTS regions that share a border with region LT022 are: LT011, LT021, LT024, LT025, LT026, LT027.",120,33,"['LT011', 'LT026', 'LT021', 'LT025', 'LT027', 'LT024']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should be consise.","intro,details,consise",SE331,"SE331, Västerbottens län",Give me all nuts regions that share a border with the region SE331 and have the same NUTS level,The NUTS regions that share a border with SE331 at the same NUTS level are SE32 and SE33.,55,26,"['SE321', 'SE322', 'SE332']","['SE32', 'SE33']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region SE331.
+    
+This is the answer retrieved from a Graph-database:
+['SE321', 'SE322', 'SE332']
+    
+    ","The NUTS regions that share a border with the region SE331 are SE321, SE322, and SE332.",108,25,"['SE322', 'SE321', 'SE332']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should be consise.","intro,details,consise",IE051,"IE051, Mid-West",Give me all nuts regions that share a border with the region IE051 and have the same NUTS level,"The NUTS regions that share a border with IE051 at the same NUTS level are IE052, IE053, and IE054.",55,30,"['IE052', 'IE053', 'IE042', 'IE063']","['IE053', 'IE052']",['IE054'],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region IE051.
+    
+This is the answer retrieved from a Graph-database:
+['IE052', 'IE053', 'IE042', 'IE063']
+    
+    ","The NUTS regions that share a border with region IE051 are IE052, IE053, IE042, and IE063.",112,27,"['IE053', 'IE063', 'IE042', 'IE052']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should be consise.","intro,details,consise",ES615,"ES615, Huelva",Give me all nuts regions that share a border with the region ES615 and have the same NUTS level,"The NUTS regions that share a border with ES615 at the same NUTS level are ES611, ES612, ES614, and ES616.",55,33,"['PT150', 'ES431', 'ES612', 'ES618', 'PT184']","['ES614', 'ES612', 'ES611', 'ES616']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region ES615.
+    
+This is the answer retrieved from a Graph-database:
+['PT150', 'ES431', 'ES612', 'ES618', 'PT184']
+    
+    ","The NUTS regions that share a border with region ES615 are PT150, ES431, ES612, ES618, and PT184.",116,30,"['ES618', 'ES431', 'PT150', 'ES612', 'PT184']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should be consise.","intro,details,consise",FRK21,"FRK21, Ain",Give me all nuts regions that share a border with the region FRK21 and have the same NUTS level,"The NUTS regions that share a border with FRK21 at the same NUTS level are FRK22, FRK23, and FRK24.",56,34,"['FRK24', 'FRK26', 'FRK27', 'FRK28', 'FRC13', 'FRC22']","['FRK24', 'FRK22', 'FRK23']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region FRK21.
+    
+This is the answer retrieved from a Graph-database:
+['FRK24', 'FRK26', 'FRK27', 'FRK28', 'FRC13', 'FRC22']
+    
+    ","The NUTS regions that share a border with the region FRK21 are: FRK24, FRK26, FRK27, FRK28, FRC13, FRC22.",127,41,"['FRC22', 'FRC13', 'FRK24', 'FRK28', 'FRK26', 'FRK27']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should be consise.","intro,details,task_specific,consise",CZ,"CZ, ČESKÁ REPUBLIKA",Give me all nuts regions that share a border with the region CZ and have the same NUTS level,"The NUTS regions that share a border with CZ at the same NUTS level are:
+- DE - Germany
+- AT - Austria
+- SK - Slovakia
+- PL - Poland",69,39,"['DE', 'PL', 'AT', 'SK']","['SK', 'PL', 'AT', 'DE']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region CZ.
+    
+This is the answer retrieved from a Graph-database:
+['DE', 'PL', 'AT', 'SK']
+    
+    ","The NUTS regions that share a border with the region CZ are: DE, PL, AT, SK.",107,23,"['SK', 'PL', 'AT', 'DE']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should be consise.","intro,details,task_specific,consise",BG,"BG, Bulgaria",Give me all nuts regions that share a border with the region BG and have the same NUTS level,"The NUTS regions that share a border with BG at the same NUTS level are:
+- NUTS 2: EL, RO, RS, TR
+- NUTS 3: EL41, EL42, EL43, EL51, EL52, EL53, EL54, EL61, EL62, EL63, EL64, EL65, EL66, EL67, EL71, EL72, EL73, EL81, EL82, EL83, EL84, EL91, EL92, EL93, EL94, EL95, EL96, ELA1, ELA2, ELA3, ELA4, ELA5, ELA6, ELA7, ELA8, ELA9, ELB1, ELB2, ELB3, ELB4, ELB5, ELB6, ELB7, ELB8, ELB9, ELC1, ELC2, ELC3, ELC4, ELC5, ELC6, ELC7, ELC8, ELC9",69,230,"['RO', 'EL']","['EL42', 'EL65', 'EL62', 'EL', 'EL43', 'EL51', 'RS', 'EL41', 'RO', 'EL53', 'EL63', 'EL64', 'EL61', 'TR', 'EL52', 'EL54']","['ELA9', 'ELA3', 'EL93', 'ELC2', 'EL96', 'EL67', 'ELB1', 'ELA4', 'EL83', 'ELC8', 'ELA5', 'ELC4', 'EL73', 'ELC6', 'ELB2', 'EL71', 'ELB5', 'ELC9', 'ELA8', 'ELA1', 'ELC1', 'ELB7', 'EL84', 'EL95', 'EL92', 'EL94', 'ELC5', 'EL82', 'EL91', 'ELA7', 'EL81', 'ELA6', 'ELC3', 'ELB3', 'EL72', 'ELA2', 'EL66', 'ELB9', 'ELB6', 'ELB4', 'ELB8', 'ELC7']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region BG.
+    
+This is the answer retrieved from a Graph-database:
+['RO', 'EL']
+    
+    ",The NUTS regions that share a border with the region BG are 'RO' and 'EL'.,101,21,"['RO', 'EL']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should be consise.","intro,details,task_specific,consise",FR1,"FR1, ÎLE DE FRANCE",Give me all nuts regions that share a border with the region FR1 and have the same NUTS level,"The NUTS regions that share a border with FR1 at the same NUTS level are FR2, FR3, FR4, FR5, FR6, FR7, FR8, FR9.",70,44,"['FRB', 'FRC', 'FRD', 'FRE', 'FRF']","['FR4', 'FR6', 'FR8', 'FR9', 'FR2', 'FR3', 'FR5', 'FR7']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region FR1.
+    
+This is the answer retrieved from a Graph-database:
+['FRB', 'FRC', 'FRD', 'FRE', 'FRF']
+    
+    ","The NUTS regions that share a border with the region FR1 are FRB, FRC, FRD, FRE, and FRF.",116,30,"['FRD', 'FRE', 'FRF', 'FRB', 'FRC']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should be consise.","intro,details,task_specific,consise",DEG,"DEG, THÜRINGEN",Give me all nuts regions that share a border with the region DEG and have the same NUTS level,"The NUTS regions that share a border with DEG at the same NUTS level are DEE, DE2, DE3, and DE7.",70,33,"['DE2', 'DE7', 'DE9', 'DED', 'DEE']","['DEE', 'DE3', 'DE7', 'DE2']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region DEG.
+    
+This is the answer retrieved from a Graph-database:
+['DE2', 'DE7', 'DE9', 'DED', 'DEE']
+    
+    ","The NUTS regions that share a border with the region DEG are DE2, DE7, DE9, DED, and DEE.",115,31,"['DE9', 'DED', 'DE7', 'DE2', 'DEE']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should be consise.","intro,details,task_specific,consise",PL7,"PL7, Makroregion centralny",Give me all nuts regions that share a border with the region PL7 and have the same NUTS level,"The NUTS regions that share a border with PL7 at the same NUTS level are PL4, PL6, and PL8.",70,30,"['PL2', 'PL4', 'PL5', 'PL6', 'PL8', 'PL9']","['PL4', 'PL8', 'PL6']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region PL7.
+    
+This is the answer retrieved from a Graph-database:
+['PL2', 'PL4', 'PL5', 'PL6', 'PL8', 'PL9']
+    
+    ",I don't know the answer to your question.,120,10,[],[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should be consise.","intro,details,task_specific,consise",ITI,"ITI, Centro (IT)",Give me all nuts regions that share a border with the region ITI and have the same NUTS level,"The NUTS regions that share a border with ITI at the same NUTS level are ITF, ITG, and ITB.",70,30,"['ITC', 'ITF', 'ITH']","['ITG', 'ITF']",['ITB'],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region ITI.
+    
+This is the answer retrieved from a Graph-database:
+['ITC', 'ITF', 'ITH']
+    
+    ","The NUTS regions that share a border with the region ITI are: ITC, ITF, ITH.",107,25,"['ITC', 'ITF', 'ITH']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should be consise.","intro,details,task_specific,consise",PT18,"PT18, Alentejo",Give me all nuts regions that share a border with the region PT18 and have the same NUTS level,The NUTS regions that share a border with PT18 at the same NUTS level are PT16 and PT17.,70,26,"['PT15', 'PT16', 'PT17', 'ES43', 'ES61']","['PT16', 'PT17']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region PT18.
+    
+This is the answer retrieved from a Graph-database:
+['PT15', 'PT16', 'PT17', 'ES43', 'ES61']
+    
+    ","The NUTS regions that share a border with region PT18 are PT15, PT16, PT17, ES43, and ES61.",116,30,"['ES43', 'ES61', 'PT16', 'PT15', 'PT17']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should be consise.","intro,details,task_specific,consise",FRK2,"FRK2, Rhône-Alpes",Give me all nuts regions that share a border with the region FRK2 and have the same NUTS level,"The NUTS regions that share a border with FRK2 at the same NUTS level are FRK1, FRK3, and FRK4.",71,34,"['ITC1', 'ITC2', 'FRL0', 'FRK1', 'FRC1', 'FRC2', 'FRJ1']",['FRK1'],"['FRK4', 'FRK3']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region FRK2.
+    
+This is the answer retrieved from a Graph-database:
+['ITC1', 'ITC2', 'FRL0', 'FRK1', 'FRC1', 'FRC2', 'FRJ1']
+    
+    ","The NUTS regions that share a border with the region FRK2 are: ITC1, ITC2, FRL0, FRK1, FRC1, FRC2, FRJ1.",132,45,"['FRC2', 'ITC1', 'FRJ1', 'FRK1', 'FRC1', 'FRL0', 'ITC2']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should be consise.","intro,details,task_specific,consise",CZ03,"CZ03, Jihozápad",Give me all nuts regions that share a border with the region CZ03 and have the same NUTS level,"The NUTS regions that share a border with CZ03 at the same NUTS level are PL71, DE71, and AT31.",70,30,"['AT12', 'CZ02', 'CZ04', 'CZ06', 'AT31', 'DE22', 'DE23']","['DE71', 'PL71', 'AT31']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region CZ03.
+    
+This is the answer retrieved from a Graph-database:
+['AT12', 'CZ02', 'CZ04', 'CZ06', 'AT31', 'DE22', 'DE23']
+    
+    ","The NUTS regions that share a border with the region CZ03 are: AT12, CZ02, CZ04, CZ06, AT31, DE22, DE23.",127,37,"['DE22', 'AT31', 'AT12', 'CZ02', 'DE23', 'CZ04', 'CZ06']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should be consise.","intro,details,task_specific,consise",DEF0,"DEF0, Schleswig-Holstein",Give me all nuts regions that share a border with the region DEF0 and have the same NUTS level,"The NUTS regions that share a border with DEF0 at the same NUTS level are DEF1, DEF2, DEF3, and DEF4.",70,33,"['DE93', 'DK03', 'DE60', 'DE80']",[],"['DEF3', 'DEF2', 'DEF1', 'DEF4']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region DEF0.
+    
+This is the answer retrieved from a Graph-database:
+['DE93', 'DK03', 'DE60', 'DE80']
+    
+    ","The NUTS regions that share a border with the region DEF0 are DE93, DK03, DE60, and DE80.",112,28,"['DE60', 'DE80', 'DK03', 'DE93']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should be consise.","intro,details,task_specific,consise",RO41,"RO41, Sud-Vest Oltenia",Give me all nuts regions that share a border with the region RO41 and have the same NUTS level,"The NUTS regions that share a border with RO41 at the same NUTS level are RO12, RO21, RO22, RO32, and RO42.",70,36,"['RO12', 'RO31', 'RO42', 'BG31']","['RO12', 'RO42', 'RO32', 'RO22', 'RO21']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region RO41.
+    
+This is the answer retrieved from a Graph-database:
+['RO12', 'RO31', 'RO42', 'BG31']
+    
+    ","The NUTS regions that share a border with region RO41 are: RO12, RO31, RO42, BG31.",112,27,"['RO31', 'RO12', 'RO42', 'BG31']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should be consise.","intro,details,task_specific,consise",DEB3I,"DEB3I, Rhein-Pfalz-Kreis",Give me all nuts regions that share a border with the region DEB3I and have the same NUTS level,The NUTS regions that share a border with DEB3I at the same NUTS level are DEB3H and DEB3J.,72,32,"['DE123', 'DE715', 'DEB3C', 'DEB3E', 'DEB3H', 'DE126', 'DE128', 'DEB31', 'DEB34', 'DEB36', 'DEB38', 'DEB39']","['DEB3H', 'DEB3J']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region DEB3I.
+    
+This is the answer retrieved from a Graph-database:
+['DE123', 'DE715', 'DEB3C', 'DEB3E', 'DEB3H', 'DE126', 'DE128', 'DEB31', 'DEB34', 'DEB36', 'DEB38', 'DEB39']
+    
+    ","The NUTS regions that share a border with the region DEB3I are: DE123, DE715, DEB3C, DEB3E, DEB3H, DE126, DE128, DEB31, DEB34, DEB36, DEB38, DEB39.",157,65,"['DEB3C', 'DEB38', 'DEB34', 'DEB36', 'DE123', 'DE128', 'DEB3E', 'DE126', 'DEB31', 'DEB3H', 'DEB39', 'DE715']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should be consise.","intro,details,task_specific,consise",PL515,"PL515, Jeleniogórski",Give me all nuts regions that share a border with the region PL515 and have the same NUTS level,"The NUTS regions that share a border with PL515 at the same NUTS level are:
+- PL514 (Podkarpackie)
+- PL516 (Świętokrzyskie)",70,42,"['PL516', 'PL517', 'PL518', 'DED2D', 'CZ051', 'CZ052', 'PL432']","['PL516', 'PL514']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region PL515.
+    
+This is the answer retrieved from a Graph-database:
+['PL516', 'PL517', 'PL518', 'DED2D', 'CZ051', 'CZ052', 'PL432']
+    
+    ","The NUTS regions that share a border with region PL515 are: PL516, PL517, PL518, DED2D, CZ051, CZ052, PL432.",127,38,"['DED2D', 'PL432', 'PL516', 'PL518', 'CZ051', 'PL517', 'CZ052']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should be consise.","intro,details,task_specific,consise",LT022,"LT022, Kauno apskritis",Give me all nuts regions that share a border with the region LT022 and have the same NUTS level,"The NUTS regions that share a border with LT022 at the same NUTS level are LT011, LT012, LT013, LT014, LT015, LT021, and LT023.",70,42,"['LT011', 'LT021', 'LT024', 'LT025', 'LT026', 'LT027']","['LT023', 'LT011', 'LT021']","['LT014', 'LT015', 'LT013', 'LT012']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region LT022.
+    
+This is the answer retrieved from a Graph-database:
+['LT011', 'LT021', 'LT024', 'LT025', 'LT026', 'LT027']
+    
+    ","The NUTS regions that share a border with the region LT022 are: LT011, LT021, LT024, LT025, LT026, LT027.",120,34,"['LT011', 'LT026', 'LT021', 'LT025', 'LT027', 'LT024']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should be consise.","intro,details,task_specific,consise",SE331,"SE331, Västerbottens län",Give me all nuts regions that share a border with the region SE331 and have the same NUTS level,The NUTS regions that share a border with SE331 at the same NUTS level are SE332 and SE33A.,70,27,"['SE321', 'SE322', 'SE332']",['SE332'],['SE33A'],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region SE331.
+    
+This is the answer retrieved from a Graph-database:
+['SE321', 'SE322', 'SE332']
+    
+    ","The NUTS regions that share a border with SE331 are SE321, SE322, and SE332.",108,23,"['SE322', 'SE321', 'SE332']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should be consise.","intro,details,task_specific,consise",IE051,"IE051, Mid-West",Give me all nuts regions that share a border with the region IE051 and have the same NUTS level,The NUTS regions that share a border with IE051 at the same NUTS level are IE052 and IE053.,70,26,"['IE052', 'IE053', 'IE042', 'IE063']","['IE053', 'IE052']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region IE051.
+    
+This is the answer retrieved from a Graph-database:
+['IE052', 'IE053', 'IE042', 'IE063']
+    
+    ","The NUTS regions that share a border with region IE051 are IE052, IE053, IE042, and IE063.",112,27,"['IE053', 'IE063', 'IE042', 'IE052']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should be consise.","intro,details,task_specific,consise",ES615,"ES615, Huelva",Give me all nuts regions that share a border with the region ES615 and have the same NUTS level,"The NUTS regions that share a border with ES615 at the same NUTS level are ES511, ES612, and ES618.",70,30,"['PT150', 'ES431', 'ES612', 'ES618', 'PT184']","['ES511', 'ES612', 'ES618']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region ES615.
+    
+This is the answer retrieved from a Graph-database:
+['PT150', 'ES431', 'ES612', 'ES618', 'PT184']
+    
+    ","The NUTS regions that share a border with region ES615 are PT150, ES431, ES612, ES618, and PT184.",116,30,"['ES618', 'ES431', 'PT150', 'ES612', 'PT184']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should be consise.","intro,details,task_specific,consise",FRK21,"FRK21, Ain",Give me all nuts regions that share a border with the region FRK21 and have the same NUTS level,"The NUTS regions that share a border with FRK21 at the same NUTS level are FRK22, FRK23, and FRK24.",71,34,"['FRK24', 'FRK26', 'FRK27', 'FRK28', 'FRC13', 'FRC22']","['FRK24', 'FRK22', 'FRK23']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region FRK21.
+    
+This is the answer retrieved from a Graph-database:
+['FRK24', 'FRK26', 'FRK27', 'FRK28', 'FRC13', 'FRC22']
+    
+    ","The NUTS regions that share a border with the region FRK21 are: FRK24, FRK26, FRK27, FRK28, FRC13, FRC22.",127,41,"['FRC22', 'FRC13', 'FRK24', 'FRK28', 'FRK26', 'FRK27']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,only_codes",CZ,"CZ, ČESKÁ REPUBLIKA",Give me all nuts regions that share a border with the region CZ and have the same NUTS level,"CZ01, CZ02, CZ03, CZ04, CZ05, CZ06, CZ07, CZ08, CZ09, CZ0A, CZ0B, CZ0C, CZ0D, CZ0E, CZ0F, CZ0G, CZ0H, CZ0I, CZ0J, CZ0K, CZ0L, CZ0M, CZ0N, CZ0O, CZ0P, CZ0Q, CZ0R, CZ0S, CZ0T, CZ0U, CZ0V, CZ0W, CZ0X, CZ0Y, CZ0Z.",65,132,"['DE', 'PL', 'AT', 'SK']","['CZ02', 'CZ08', 'CZ03', 'CZ07', 'CZ04', 'CZ06', 'CZ05', 'CZ01']","['CZ0S', 'CZ0G', 'CZ0K', 'CZ0M', 'CZ0Z', 'CZ0L', 'CZ0T', 'CZ0D', 'CZ0P', 'CZ0E', 'CZ0U', 'CZ0O', 'CZ0J', 'CZ0X', 'CZ0N', 'CZ0A', 'CZ0B', 'CZ0I', 'CZ0Y', 'CZ09', 'CZ0Q', 'CZ0R', 'CZ0W', 'CZ0C', 'CZ0V', 'CZ0H', 'CZ0F']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region CZ.
+    
+This is the answer retrieved from a Graph-database:
+['DE', 'PL', 'AT', 'SK']
+    
+    ","The NUTS regions that share a border with the region CZ are: DE, PL, AT, SK.",107,23,"['SK', 'PL', 'AT', 'DE']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,only_codes",BG,"BG, Bulgaria",Give me all nuts regions that share a border with the region BG and have the same NUTS level,"BG311, BG324, BG325, BG326, BG327, BG328, BG411, BG412, BG413, BG414, BG415, BG416, BG417, BG418, BG419, BG421, BG422, BG423, BG431, BG432, BG433, BG434, BG511, BG512, BG521, BG522, BG523, BG611, BG612, BG613, BG621, BG622, BG623, BG624, BG625, BG626, BG627, BG628, BG631, BG632, BG633, BG634, BG641, BG642, BG643, BG644, BG645, BG646, BG647, BG648, BG649, BG651, BG652, BG653, BG654, BG655, BG656, BG657, BG658, BG659, BG661, BG662, BG663, BG664, BG665, BG666, BG667, BG668, BG669, BG671, BG672, BG673, BG674, BG675, BG676, BG677, BG678, BG679, BG681, BG682, BG683, BG684, BG685, BG686, BG687, BG688, BG689, BG691, BG692, BG693, BG694, BG695, BG696, BG697, BG698, BG699.",65,288,"['RO', 'EL']","['BG415', 'BG414', 'BG422', 'BG324', 'BG311', 'BG325', 'BG423', 'BG412', 'BG413', 'BG411', 'BG421']","['BG431', 'BG647', 'BG622', 'BG687', 'BG641', 'BG682', 'BG416', 'BG665', 'BG626', 'BG686', 'BG649', 'BG668', 'BG692', 'BG663', 'BG685', 'BG675', 'BG643', 'BG631', 'BG646', 'BG624', 'BG693', 'BG648', 'BG673', 'BG512', 'BG684', 'BG655', 'BG621', 'BG656', 'BG625', 'BG699', 'BG644', 'BG698', 'BG511', 'BG523', 'BG664', 'BG666', 'BG697', 'BG658', 'BG327', 'BG651', 'BG642', 'BG612', 'BG418', 'BG653', 'BG326', 'BG328', 'BG689', 'BG696', 'BG613', 'BG691', 'BG645', 'BG667', 'BG676', 'BG652', 'BG654', 'BG419', 'BG434', 'BG628', 'BG679', 'BG634', 'BG694', 'BG659', 'BG688', 'BG657', 'BG671', 'BG678', 'BG521', 'BG417', 'BG623', 'BG661', 'BG669', 'BG611', 'BG632', 'BG683', 'BG433', 'BG677', 'BG662', 'BG681', 'BG432', 'BG672', 'BG674', 'BG522', 'BG627', 'BG633', 'BG695']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region BG.
+    
+This is the answer retrieved from a Graph-database:
+['RO', 'EL']
+    
+    ",The NUTS regions that share a border with the region BG are 'RO' and 'EL'.,101,21,"['RO', 'EL']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,only_codes",FR1,"FR1, ÎLE DE FRANCE",Give me all nuts regions that share a border with the region FR1 and have the same NUTS level,"FRB1
+FRB2
+FRB3
+FRB4",66,15,"['FRB', 'FRC', 'FRD', 'FRE', 'FRF']",[],"['FRB1', 'FRB4', 'FRB2', 'FRB3']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region FR1.
+    
+This is the answer retrieved from a Graph-database:
+['FRB', 'FRC', 'FRD', 'FRE', 'FRF']
+    
+    ","The NUTS regions that share a border with the region FR1 are: FRB, FRC, FRD, FRE, FRF.",116,30,"['FRD', 'FRE', 'FRF', 'FRB', 'FRC']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,only_codes",DEG,"DEG, THÜRINGEN",Give me all nuts regions that share a border with the region DEG and have the same NUTS level,"DE2
+DE3
+DE4",66,8,"['DE2', 'DE7', 'DE9', 'DED', 'DEE']","['DE3', 'DE4', 'DE2']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region DEG.
+    
+This is the answer retrieved from a Graph-database:
+['DE2', 'DE7', 'DE9', 'DED', 'DEE']
+    
+    ","The NUTS regions that share a border with the region DEG are: DE2, DE7, DE9, DED, DEE.",115,31,"['DE9', 'DED', 'DE7', 'DE2', 'DEE']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,only_codes",PL7,"PL7, Makroregion centralny",Give me all nuts regions that share a border with the region PL7 and have the same NUTS level,"PL2
+PL3
+PL4
+PL5
+PL6",66,14,"['PL2', 'PL4', 'PL5', 'PL6', 'PL8', 'PL9']","['PL4', 'PL5', 'PL2', 'PL6', 'PL3']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region PL7.
+    
+This is the answer retrieved from a Graph-database:
+['PL2', 'PL4', 'PL5', 'PL6', 'PL8', 'PL9']
+    
+    ","The NUTS regions that share a border with the region PL7 are: PL2, PL4, PL5, PL6, PL8, PL9.",120,34,"['PL4', 'PL9', 'PL5', 'PL2', 'PL8', 'PL6']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,only_codes",ITI,"ITI, Centro (IT)",Give me all nuts regions that share a border with the region ITI and have the same NUTS level,"ITF
+ITH
+ITG",66,7,"['ITC', 'ITF', 'ITH']","['ITG', 'ITF', 'ITH']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region ITI.
+    
+This is the answer retrieved from a Graph-database:
+['ITC', 'ITF', 'ITH']
+    
+    ","The NUTS regions that share a border with the region ITI are ITC, ITF, and ITH.",107,25,"['ITC', 'ITF', 'ITH']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,only_codes",PT18,"PT18, Alentejo",Give me all nuts regions that share a border with the region PT18 and have the same NUTS level,"ES11
+ES21",66,5,"['PT15', 'PT16', 'PT17', 'ES43', 'ES61']","['ES21', 'ES11']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region PT18.
+    
+This is the answer retrieved from a Graph-database:
+['PT15', 'PT16', 'PT17', 'ES43', 'ES61']
+    
+    ","The NUTS regions that share a border with region PT18 are PT15, PT16, PT17, ES43, and ES61.",116,30,"['ES43', 'ES61', 'PT16', 'PT15', 'PT17']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,only_codes",FRK2,"FRK2, Rhône-Alpes",Give me all nuts regions that share a border with the region FRK2 and have the same NUTS level,"FRK1
+FRK3",67,7,"['ITC1', 'ITC2', 'FRL0', 'FRK1', 'FRC1', 'FRC2', 'FRJ1']",['FRK1'],['FRK3'],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region FRK2.
+    
+This is the answer retrieved from a Graph-database:
+['ITC1', 'ITC2', 'FRL0', 'FRK1', 'FRC1', 'FRC2', 'FRJ1']
+    
+    ","The NUTS regions that share a border with the region FRK2 are: ITC1, ITC2, FRL0, FRK1, FRC1, FRC2, FRJ1.",132,45,"['FRC2', 'ITC1', 'FRJ1', 'FRK1', 'FRC1', 'FRL0', 'ITC2']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,only_codes",CZ03,"CZ03, Jihozápad",Give me all nuts regions that share a border with the region CZ03 and have the same NUTS level,"CZ01
+CZ02
+CZ04",66,11,"['AT12', 'CZ02', 'CZ04', 'CZ06', 'AT31', 'DE22', 'DE23']","['CZ04', 'CZ02', 'CZ01']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region CZ03.
+    
+This is the answer retrieved from a Graph-database:
+['AT12', 'CZ02', 'CZ04', 'CZ06', 'AT31', 'DE22', 'DE23']
+    
+    ","The NUTS regions that share a border with the region CZ03 are: AT12, CZ02, CZ04, CZ06, AT31, DE22, DE23.",127,37,"['DE22', 'AT31', 'AT12', 'CZ02', 'DE23', 'CZ04', 'CZ06']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,only_codes",DEF0,"DEF0, Schleswig-Holstein",Give me all nuts regions that share a border with the region DEF0 and have the same NUTS level,"DE21
+DE22
+DE23
+DE24",66,11,"['DE93', 'DK03', 'DE60', 'DE80']","['DE24', 'DE23', 'DE22', 'DE21']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region DEF0.
+    
+This is the answer retrieved from a Graph-database:
+['DE93', 'DK03', 'DE60', 'DE80']
+    
+    ","The NUTS regions that share a border with the region DEF0 are DE93, DK03, DE60, and DE80.",112,28,"['DE60', 'DE80', 'DK03', 'DE93']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,only_codes",RO41,"RO41, Sud-Vest Oltenia",Give me all nuts regions that share a border with the region RO41 and have the same NUTS level,"RO12
+RO21
+RO22
+RO31",66,11,"['RO12', 'RO31', 'RO42', 'BG31']","['RO31', 'RO12', 'RO21', 'RO22']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region RO41.
+    
+This is the answer retrieved from a Graph-database:
+['RO12', 'RO31', 'RO42', 'BG31']
+    
+    ","The NUTS regions that share a border with region RO41 are: RO12, RO31, RO42, and BG31.",112,28,"['RO31', 'RO12', 'RO42', 'BG31']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,only_codes",DEB3I,"DEB3I, Rhein-Pfalz-Kreis",Give me all nuts regions that share a border with the region DEB3I and have the same NUTS level,"DEB30, DEB2D, DEB2E, DEB2F",68,18,"['DE123', 'DE715', 'DEB3C', 'DEB3E', 'DEB3H', 'DE126', 'DE128', 'DEB31', 'DEB34', 'DEB36', 'DEB38', 'DEB39']",[],"['DEB2E', 'DEB30', 'DEB2F', 'DEB2D']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region DEB3I.
+    
+This is the answer retrieved from a Graph-database:
+['DE123', 'DE715', 'DEB3C', 'DEB3E', 'DEB3H', 'DE126', 'DE128', 'DEB31', 'DEB34', 'DEB36', 'DEB38', 'DEB39']
+    
+    ","The NUTS regions that share a border with region DEB3I are: DE123, DE715, DEB3C, DEB3E, DEB3H, DE126, DE128, DEB31, DEB34, DEB36, DEB38, DEB39.",157,64,"['DEB3C', 'DEB38', 'DEB34', 'DEB36', 'DE123', 'DE128', 'DEB3E', 'DE126', 'DEB31', 'DEB3H', 'DEB39', 'DE715']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,only_codes",PL515,"PL515, Jeleniogórski",Give me all nuts regions that share a border with the region PL515 and have the same NUTS level,"PL41
+PL51
+PL61",66,8,"['PL516', 'PL517', 'PL518', 'DED2D', 'CZ051', 'CZ052', 'PL432']","['PL51', 'PL61', 'PL41']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region PL515.
+    
+This is the answer retrieved from a Graph-database:
+['PL516', 'PL517', 'PL518', 'DED2D', 'CZ051', 'CZ052', 'PL432']
+    
+    ","The NUTS regions that share a border with region PL515 are: PL516, PL517, PL518, DED2D, CZ051, CZ052, PL432.",127,38,"['DED2D', 'PL432', 'PL516', 'PL518', 'CZ051', 'PL517', 'CZ052']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,only_codes",LT022,"LT022, Kauno apskritis",Give me all nuts regions that share a border with the region LT022 and have the same NUTS level,"LT011
+LT012
+LT013",66,8,"['LT011', 'LT021', 'LT024', 'LT025', 'LT026', 'LT027']",['LT011'],"['LT013', 'LT012']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region LT022.
+    
+This is the answer retrieved from a Graph-database:
+['LT011', 'LT021', 'LT024', 'LT025', 'LT026', 'LT027']
+    
+    ","The NUTS regions that share a border with region LT022 are: LT011, LT021, LT024, LT025, LT026, LT027.",120,33,"['LT011', 'LT026', 'LT021', 'LT025', 'LT027', 'LT024']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,only_codes",SE331,"SE331, Västerbottens län",Give me all nuts regions that share a border with the region SE331 and have the same NUTS level,"SE331, SE332, SE333, SE334",66,11,"['SE321', 'SE322', 'SE332']","['SE331', 'SE332']","['SE333', 'SE334']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region SE331.
+    
+This is the answer retrieved from a Graph-database:
+['SE321', 'SE322', 'SE332']
+    
+    ","The NUTS regions that share a border with the region SE331 are SE321, SE322, and SE332.",108,25,"['SE322', 'SE321', 'SE332']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,only_codes",IE051,"IE051, Mid-West",Give me all nuts regions that share a border with the region IE051 and have the same NUTS level,"IE041
+IE042
+IE061",66,8,"['IE052', 'IE053', 'IE042', 'IE063']","['IE041', 'IE042', 'IE061']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region IE051.
+    
+This is the answer retrieved from a Graph-database:
+['IE052', 'IE053', 'IE042', 'IE063']
+    
+    ","The NUTS regions that share a border with region IE051 are IE052, IE053, IE042, and IE063.",112,27,"['IE053', 'IE063', 'IE042', 'IE052']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,only_codes",ES615,"ES615, Huelva",Give me all nuts regions that share a border with the region ES615 and have the same NUTS level,"ES511
+ES612",66,5,"['PT150', 'ES431', 'ES612', 'ES618', 'PT184']","['ES511', 'ES612']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region ES615.
+    
+This is the answer retrieved from a Graph-database:
+['PT150', 'ES431', 'ES612', 'ES618', 'PT184']
+    
+    ","The NUTS regions that share a border with region ES615 are: PT150, ES431, ES612, ES618, PT184.",116,30,"['ES618', 'ES431', 'PT150', 'ES612', 'PT184']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,only_codes",FRK21,"FRK21, Ain",Give me all nuts regions that share a border with the region FRK21 and have the same NUTS level,"FRK12
+FRK22
+FRK23",67,11,"['FRK24', 'FRK26', 'FRK27', 'FRK28', 'FRC13', 'FRC22']","['FRK12', 'FRK22', 'FRK23']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region FRK21.
+    
+This is the answer retrieved from a Graph-database:
+['FRK24', 'FRK26', 'FRK27', 'FRK28', 'FRC13', 'FRC22']
+    
+    ","The NUTS regions that share a border with the region FRK21 are: FRK24, FRK26, FRK27, FRK28, FRC13, FRC22.",127,41,"['FRC22', 'FRC13', 'FRK24', 'FRK28', 'FRK26', 'FRK27']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,task_specific,only_codes",CZ,"CZ, ČESKÁ REPUBLIKA",Give me all nuts regions that share a border with the region CZ and have the same NUTS level,"DE, PL, SK, AT",80,7,"['DE', 'PL', 'AT', 'SK']","['SK', 'PL', 'AT', 'DE']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region CZ.
+    
+This is the answer retrieved from a Graph-database:
+['DE', 'PL', 'AT', 'SK']
+    
+    ","The NUTS regions that share a border with the region CZ are: DE, PL, AT, SK.",107,23,"['SK', 'PL', 'AT', 'DE']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,task_specific,only_codes",BG,"BG, Bulgaria",Give me all nuts regions that share a border with the region BG and have the same NUTS level,"EL41, EL42, EL43, EL51, EL52, EL53, EL54, EL61, EL62, EL63, EL64, EL65, EL66, EL67, EL71, EL72, EL73, EL81, EL82, EL83, EL84, EL91, EL92, EL93, EL94, EL95, EL96, ELA1, ELA2, ELA3, ELA4, ELA5, ELA6, ELA7, ELA8, ELA9, ELB1, ELB2, ELB3, ELB4, ELB5, ELB6, ELB7, ELB8, ELB9, ELC1, ELC2, ELC3, ELC4, ELC5, ELC6, ELC7, ELC8, ELC9, ELD1, ELD2, ELD3, ELD4, ELD5, ELD6, ELD7, ELD8, ELD9, ELE1, ELE2, ELE3, ELE4, ELE5, ELE6, ELE7, ELE8, ELE9, ELF1, ELF2, ELF3, ELF4, ELF5, ELF6, ELF7, ELF8, ELF9, ELG1, ELG2, ELG3,",80,300,"['RO', 'EL']","['EL42', 'EL65', 'EL62', 'EL43', 'EL51', 'EL41', 'EL53', 'EL63', 'EL64', 'EL61', 'EL52', 'EL54']","['ELA3', 'ELC2', 'EL96', 'ELD6', 'ELF3', 'EL67', 'ELG3', 'ELE5', 'ELC8', 'ELA5', 'EL73', 'ELC4', 'ELE3', 'ELF2', 'ELB5', 'ELA1', 'ELC1', 'EL95', 'ELC5', 'ELF4', 'ELA7', 'ELE2', 'ELD4', 'ELA6', 'ELF6', 'ELD5', 'EL72', 'ELA2', 'ELB9', 'ELC3', 'ELC7', 'ELD3', 'ELA9', 'ELE6', 'ELE8', 'EL93', 'ELD7', 'ELE9', 'ELB1', 'ELA4', 'EL83', 'ELF5', 'ELC6', 'ELB2', 'EL71', 'ELC9', 'ELG2', 'ELA8', 'ELF9', 'ELD1', 'ELE7', 'ELF7', 'ELB8', 'ELD9', 'ELB7', 'ELD8', 'EL84', 'EL92', 'EL94', 'EL82', 'EL91', 'ELE1', 'ELG1', 'EL81', 'ELD2', 'ELF8', 'ELE4', 'ELF1', 'EL66', 'ELB6', 'ELB4', 'ELB3']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region BG.
+    
+This is the answer retrieved from a Graph-database:
+['RO', 'EL']
+    
+    ",The NUTS regions that share a border with the region BG are 'RO' and 'EL'.,101,21,"['RO', 'EL']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,task_specific,only_codes",FR1,"FR1, ÎLE DE FRANCE",Give me all nuts regions that share a border with the region FR1 and have the same NUTS level,"FRB
+FRC
+FRD
+FRE",81,11,"['FRB', 'FRC', 'FRD', 'FRE', 'FRF']","['FRB', 'FRD', 'FRC', 'FRE']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region FR1.
+    
+This is the answer retrieved from a Graph-database:
+['FRB', 'FRC', 'FRD', 'FRE', 'FRF']
+    
+    ","The NUTS regions that share a border with the region FR1 are FRB, FRC, FRD, FRE, and FRF.",116,30,"['FRD', 'FRE', 'FRF', 'FRB', 'FRC']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,task_specific,only_codes",DEG,"DEG, THÜRINGEN",Give me all nuts regions that share a border with the region DEG and have the same NUTS level,"DE21
+DE22
+DE23
+DE24
+DE25",81,14,"['DE2', 'DE7', 'DE9', 'DED', 'DEE']","['DE25', 'DE22', 'DE24', 'DE23', 'DE21']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region DEG.
+    
+This is the answer retrieved from a Graph-database:
+['DE2', 'DE7', 'DE9', 'DED', 'DEE']
+    
+    ","The NUTS regions that share a border with the region DEG are: DE2, DE7, DE9, DED, DEE.",115,31,"['DE9', 'DED', 'DE7', 'DE2', 'DEE']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,task_specific,only_codes",PL7,"PL7, Makroregion centralny",Give me all nuts regions that share a border with the region PL7 and have the same NUTS level,"PL4
+PL6
+PL8",81,8,"['PL2', 'PL4', 'PL5', 'PL6', 'PL8', 'PL9']","['PL4', 'PL8', 'PL6']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region PL7.
+    
+This is the answer retrieved from a Graph-database:
+['PL2', 'PL4', 'PL5', 'PL6', 'PL8', 'PL9']
+    
+    ","The NUTS regions that share a border with the region PL7 are: PL2, PL4, PL5, PL6, PL8, PL9.",120,34,"['PL4', 'PL9', 'PL5', 'PL2', 'PL8', 'PL6']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,task_specific,only_codes",ITI,"ITI, Centro (IT)",Give me all nuts regions that share a border with the region ITI and have the same NUTS level,"ITF
+ITH
+ITG",81,7,"['ITC', 'ITF', 'ITH']","['ITG', 'ITF', 'ITH']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region ITI.
+    
+This is the answer retrieved from a Graph-database:
+['ITC', 'ITF', 'ITH']
+    
+    ","The NUTS regions that share a border with the region ITI are ITC, ITF, and ITH.",107,25,"['ITC', 'ITF', 'ITH']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,task_specific,only_codes",PT18,"PT18, Alentejo",Give me all nuts regions that share a border with the region PT18 and have the same NUTS level,"ES30
+ES21
+ES11",81,8,"['PT15', 'PT16', 'PT17', 'ES43', 'ES61']","['ES21', 'ES11', 'ES30']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region PT18.
+    
+This is the answer retrieved from a Graph-database:
+['PT15', 'PT16', 'PT17', 'ES43', 'ES61']
+    
+    ","The NUTS regions that share a border with region PT18 are PT15, PT16, PT17, ES43, and ES61.",116,30,"['ES43', 'ES61', 'PT16', 'PT15', 'PT17']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,task_specific,only_codes",FRK2,"FRK2, Rhône-Alpes",Give me all nuts regions that share a border with the region FRK2 and have the same NUTS level,"FRK1
+FRK3",82,7,"['ITC1', 'ITC2', 'FRL0', 'FRK1', 'FRC1', 'FRC2', 'FRJ1']",['FRK1'],['FRK3'],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region FRK2.
+    
+This is the answer retrieved from a Graph-database:
+['ITC1', 'ITC2', 'FRL0', 'FRK1', 'FRC1', 'FRC2', 'FRJ1']
+    
+    ","The NUTS regions that share a border with the region FRK2 are: ITC1, ITC2, FRL0, FRK1, FRC1, FRC2, FRJ1.",132,45,"['FRC2', 'ITC1', 'FRJ1', 'FRK1', 'FRC1', 'FRL0', 'ITC2']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,task_specific,only_codes",CZ03,"CZ03, Jihozápad",Give me all nuts regions that share a border with the region CZ03 and have the same NUTS level,"CZ01
+CZ02
+CZ04",81,11,"['AT12', 'CZ02', 'CZ04', 'CZ06', 'AT31', 'DE22', 'DE23']","['CZ04', 'CZ02', 'CZ01']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region CZ03.
+    
+This is the answer retrieved from a Graph-database:
+['AT12', 'CZ02', 'CZ04', 'CZ06', 'AT31', 'DE22', 'DE23']
+    
+    ","The NUTS regions that share a border with the region CZ03 are: AT12, CZ02, CZ04, CZ06, AT31, DE22, DE23.",127,37,"['DE22', 'AT31', 'AT12', 'CZ02', 'DE23', 'CZ04', 'CZ06']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,task_specific,only_codes",DEF0,"DEF0, Schleswig-Holstein",Give me all nuts regions that share a border with the region DEF0 and have the same NUTS level,"DEF0, DEE0, DE30, DE71, DE72",81,15,"['DE93', 'DK03', 'DE60', 'DE80']","['DE71', 'DE30', 'DEF0', 'DE72', 'DEE0']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region DEF0.
+    
+This is the answer retrieved from a Graph-database:
+['DE93', 'DK03', 'DE60', 'DE80']
+    
+    ","The NUTS regions that share a border with the region DEF0 are DE93, DK03, DE60, and DE80.",112,28,"['DE60', 'DE80', 'DK03', 'DE93']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,task_specific,only_codes",RO41,"RO41, Sud-Vest Oltenia",Give me all nuts regions that share a border with the region RO41 and have the same NUTS level,"RO12
+RO21
+RO22
+RO31",81,11,"['RO12', 'RO31', 'RO42', 'BG31']","['RO31', 'RO12', 'RO21', 'RO22']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region RO41.
+    
+This is the answer retrieved from a Graph-database:
+['RO12', 'RO31', 'RO42', 'BG31']
+    
+    ","The NUTS regions that share a border with region RO41 are: RO12, RO31, RO42, and BG31.",112,28,"['RO31', 'RO12', 'RO42', 'BG31']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,task_specific,only_codes",DEB3I,"DEB3I, Rhein-Pfalz-Kreis",Give me all nuts regions that share a border with the region DEB3I and have the same NUTS level,"DEB2, DEB3J, DEB3K",83,13,"['DE123', 'DE715', 'DEB3C', 'DEB3E', 'DEB3H', 'DE126', 'DE128', 'DEB31', 'DEB34', 'DEB36', 'DEB38', 'DEB39']","['DEB3K', 'DEB2', 'DEB3J']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region DEB3I.
+    
+This is the answer retrieved from a Graph-database:
+['DE123', 'DE715', 'DEB3C', 'DEB3E', 'DEB3H', 'DE126', 'DE128', 'DEB31', 'DEB34', 'DEB36', 'DEB38', 'DEB39']
+    
+    ","The NUTS regions that share a border with the region DEB3I are: DE123, DE715, DEB3C, DEB3E, DEB3H, DE126, DE128, DEB31, DEB34, DEB36, DEB38, DEB39.",157,65,"['DEB3C', 'DEB38', 'DEB34', 'DEB36', 'DE123', 'DE128', 'DEB3E', 'DE126', 'DEB31', 'DEB3H', 'DEB39', 'DE715']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,task_specific,only_codes",PL515,"PL515, Jeleniogórski",Give me all nuts regions that share a border with the region PL515 and have the same NUTS level,"PL514
+PL516
+PL517",81,8,"['PL516', 'PL517', 'PL518', 'DED2D', 'CZ051', 'CZ052', 'PL432']","['PL516', 'PL517', 'PL514']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region PL515.
+    
+This is the answer retrieved from a Graph-database:
+['PL516', 'PL517', 'PL518', 'DED2D', 'CZ051', 'CZ052', 'PL432']
+    
+    ","The NUTS regions that share a border with region PL515 are: PL516, PL517, PL518, DED2D, CZ051, CZ052, PL432.",127,38,"['DED2D', 'PL432', 'PL516', 'PL518', 'CZ051', 'PL517', 'CZ052']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,task_specific,only_codes",LT022,"LT022, Kauno apskritis",Give me all nuts regions that share a border with the region LT022 and have the same NUTS level,"LT011
+LT012
+LT013",81,8,"['LT011', 'LT021', 'LT024', 'LT025', 'LT026', 'LT027']",['LT011'],"['LT013', 'LT012']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region LT022.
+    
+This is the answer retrieved from a Graph-database:
+['LT011', 'LT021', 'LT024', 'LT025', 'LT026', 'LT027']
+    
+    ","The NUTS regions that share a border with LT022 are: LT011, LT021, LT024, LT025, LT026, LT027.",120,32,"['LT011', 'LT026', 'LT021', 'LT025', 'LT027', 'LT024']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,task_specific,only_codes",SE331,"SE331, Västerbottens län",Give me all nuts regions that share a border with the region SE331 and have the same NUTS level,"SE110
+SE120
+SE122
+SE123
+SE124
+SE125
+SE211
+SE212
+SE213
+SE214",81,29,"['SE321', 'SE322', 'SE332']","['SE214', 'SE125', 'SE211', 'SE124', 'SE122', 'SE213', 'SE212', 'SE123', 'SE110']",['SE120'],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region SE331.
+    
+This is the answer retrieved from a Graph-database:
+['SE321', 'SE322', 'SE332']
+    
+    ","The NUTS regions that share a border with the region SE331 are SE321, SE322, and SE332.",108,25,"['SE322', 'SE321', 'SE332']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,task_specific,only_codes",IE051,"IE051, Mid-West",Give me all nuts regions that share a border with the region IE051 and have the same NUTS level,"IE042, IE043, IE052, IE053",81,11,"['IE052', 'IE053', 'IE042', 'IE063']","['IE053', 'IE042', 'IE052']",['IE043'],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region IE051.
+    
+This is the answer retrieved from a Graph-database:
+['IE052', 'IE053', 'IE042', 'IE063']
+    
+    ","The NUTS regions that share a border with region IE051 are IE052, IE053, IE042, and IE063.",112,27,"['IE053', 'IE063', 'IE042', 'IE052']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,task_specific,only_codes",ES615,"ES615, Huelva",Give me all nuts regions that share a border with the region ES615 and have the same NUTS level,"ES511, ES612, ES618",81,8,"['PT150', 'ES431', 'ES612', 'ES618', 'PT184']","['ES511', 'ES612', 'ES618']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region ES615.
+    
+This is the answer retrieved from a Graph-database:
+['PT150', 'ES431', 'ES612', 'ES618', 'PT184']
+    
+    ","The NUTS regions that share a border with region ES615 are PT150, ES431, ES612, ES618, and PT184.",116,30,"['ES618', 'ES431', 'PT150', 'ES612', 'PT184']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.","intro,details,task_specific,only_codes",FRK21,"FRK21, Ain",Give me all nuts regions that share a border with the region FRK21 and have the same NUTS level,"FRK22, FRK23, FRK24, FRK25, FRK26, FRK27, FRK28, FRK29",82,31,"['FRK24', 'FRK26', 'FRK27', 'FRK28', 'FRC13', 'FRC22']","['FRK25', 'FRK26', 'FRK24', 'FRK23', 'FRK28', 'FRK22', 'FRK27']",['FRK29'],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region FRK21.
+    
+This is the answer retrieved from a Graph-database:
+['FRK24', 'FRK26', 'FRK27', 'FRK28', 'FRC13', 'FRC22']
+    
+    ","The NUTS regions that share a border with region FRK21 are FRK24, FRK26, FRK27, FRK28, FRC13, and FRC22.",127,40,"['FRC22', 'FRC13', 'FRK24', 'FRK28', 'FRK26', 'FRK27']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.
+Format your answer as a python list.","intro,details,task_specific,only_codes,python_list",CZ,"CZ, ČESKÁ REPUBLIKA",Give me all nuts regions that share a border with the region CZ and have the same NUTS level,"['DE', 'PL', 'SK', 'AT']",88,12,"['DE', 'PL', 'AT', 'SK']","['SK', 'PL', 'AT', 'DE']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region CZ.
+    
+This is the answer retrieved from a Graph-database:
+['DE', 'PL', 'AT', 'SK']
+    
+    ","The NUTS regions that share a border with the region CZ are: DE, PL, AT, SK.",107,23,"['SK', 'PL', 'AT', 'DE']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.
+Format your answer as a python list.","intro,details,task_specific,only_codes,python_list",BG,"BG, Bulgaria",Give me all nuts regions that share a border with the region BG and have the same NUTS level,"['EL41', 'EL42', 'EL43', 'EL51', 'EL52', 'EL53', 'EL54', 'EL61', 'EL62', 'EL63', 'EL64', 'EL65', 'EL66', 'EL67', 'EL71', 'EL72', 'EL73', 'EL74', 'EL81', 'EL82', 'EL83', 'EL84', 'EL91', 'EL92', 'EL93', 'EL94', 'EL95', 'EL96', 'EL11', 'EL12', 'EL13', 'EL21', 'EL22', 'EL23', 'EL24', 'EL25', 'EL30', 'EL41', 'EL42', 'EL43', 'EL51', 'EL52', 'EL53', 'EL54', 'EL61', 'EL62', 'EL63', 'EL64', 'EL65', 'EL66', 'EL67', 'EL71', 'EL72', 'EL73', 'EL74', 'EL81', 'EL82', 'EL83', 'EL84', 'EL91', 'EL92', 'EL93', 'EL94', 'EL95', 'EL96', 'EL11', 'EL12', 'EL13', 'EL21', 'EL22', 'EL23', 'EL24', 'EL25', 'EL30']",88,296,"['RO', 'EL']","['EL42', 'EL21', 'EL43', 'EL30', 'EL51', 'EL64', 'EL23', 'EL52', 'EL62', 'EL11', 'EL24', 'EL41', 'EL25', 'EL22', 'EL53', 'EL13', 'EL54', 'EL12', 'EL65', 'EL63', 'EL61']","['EL71', 'EL93', 'EL84', 'EL72', 'EL95', 'EL92', 'EL94', 'EL96', 'EL67', 'EL82', 'EL91', 'EL74', 'EL66', 'EL83', 'EL81', 'EL73']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region BG.
+    
+This is the answer retrieved from a Graph-database:
+['RO', 'EL']
+    
+    ",The NUTS regions that share a border with the region BG are 'RO' and 'EL'.,101,21,"['RO', 'EL']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.
+Format your answer as a python list.","intro,details,task_specific,only_codes,python_list",FR1,"FR1, ÎLE DE FRANCE",Give me all nuts regions that share a border with the region FR1 and have the same NUTS level,"['FRB', 'FRC', 'FRD', 'FRE', 'FRH', 'FRJ', 'FRK', 'FRL', 'FRM', 'FRN', 'FRO', 'FRP', 'FRQ', 'FRR', 'FRS', 'FRT', 'FRU', 'FRV', 'FRW', 'FRX', 'FRY', 'FRZ']",89,88,"['FRB', 'FRC', 'FRD', 'FRE', 'FRF']","['FRD', 'FRM', 'FRH', 'FRK', 'FRE', 'FRY', 'FRL', 'FRB', 'FRC', 'FRJ']","['FRP', 'FRV', 'FRQ', 'FRW', 'FRX', 'FRO', 'FRT', 'FRR', 'FRU', 'FRZ', 'FRN', 'FRS']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region FR1.
+    
+This is the answer retrieved from a Graph-database:
+['FRB', 'FRC', 'FRD', 'FRE', 'FRF']
+    
+    ","The NUTS regions that share a border with the region FR1 are FRB, FRC, FRD, FRE, and FRF.",116,30,"['FRD', 'FRE', 'FRF', 'FRB', 'FRC']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.
+Format your answer as a python list.","intro,details,task_specific,only_codes,python_list",DEG,"DEG, THÜRINGEN",Give me all nuts regions that share a border with the region DEG and have the same NUTS level,"['DEE1', 'DEE2', 'DEE3', 'DEE4', 'DEE5', 'DEE6', 'DEE7', 'DEE8', 'DEE9', 'DEE0']",89,50,"['DE2', 'DE7', 'DE9', 'DED', 'DEE']",['DEE0'],"['DEE9', 'DEE5', 'DEE3', 'DEE1', 'DEE7', 'DEE8', 'DEE2', 'DEE6', 'DEE4']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region DEG.
+    
+This is the answer retrieved from a Graph-database:
+['DE2', 'DE7', 'DE9', 'DED', 'DEE']
+    
+    ","The NUTS regions that share a border with the region DEG are: DE2, DE7, DE9, DED, DEE.",115,31,"['DE9', 'DED', 'DE7', 'DE2', 'DEE']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.
+Format your answer as a python list.","intro,details,task_specific,only_codes,python_list",PL7,"PL7, Makroregion centralny",Give me all nuts regions that share a border with the region PL7 and have the same NUTS level,"['PL4', 'PL6', 'PL8', 'PL9']",89,16,"['PL2', 'PL4', 'PL5', 'PL6', 'PL8', 'PL9']","['PL4', 'PL9', 'PL8', 'PL6']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region PL7.
+    
+This is the answer retrieved from a Graph-database:
+['PL2', 'PL4', 'PL5', 'PL6', 'PL8', 'PL9']
+    
+    ","The NUTS regions that share a border with the region PL7 are: PL2, PL4, PL5, PL6, PL8, PL9.",120,34,"['PL4', 'PL9', 'PL5', 'PL2', 'PL8', 'PL6']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.
+Format your answer as a python list.","intro,details,task_specific,only_codes,python_list",ITI,"ITI, Centro (IT)",Give me all nuts regions that share a border with the region ITI and have the same NUTS level,"['ITF', 'ITH', 'ITG', 'ITC', 'ITB', 'ITD']",89,23,"['ITC', 'ITF', 'ITH']","['ITC', 'ITG', 'ITF', 'ITH']","['ITB', 'ITD']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region ITI.
+    
+This is the answer retrieved from a Graph-database:
+['ITC', 'ITF', 'ITH']
+    
+    ","The NUTS regions that share a border with the region ITI are ITC, ITF, and ITH.",107,25,"['ITC', 'ITF', 'ITH']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.
+Format your answer as a python list.","intro,details,task_specific,only_codes,python_list",PT18,"PT18, Alentejo",Give me all nuts regions that share a border with the region PT18 and have the same NUTS level,"['ES30', 'ES11', 'ES21', 'ES12', 'ES41', 'ES42', 'ES43']",89,28,"['PT15', 'PT16', 'PT17', 'ES43', 'ES61']","['ES42', 'ES43', 'ES41', 'ES12', 'ES11', 'ES21', 'ES30']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region PT18.
+    
+This is the answer retrieved from a Graph-database:
+['PT15', 'PT16', 'PT17', 'ES43', 'ES61']
+    
+    ","The NUTS regions that share a border with region PT18 are PT15, PT16, PT17, ES43, and ES61.",116,30,"['ES43', 'ES61', 'PT16', 'PT15', 'PT17']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.
+Format your answer as a python list.","intro,details,task_specific,only_codes,python_list",FRK2,"FRK2, Rhône-Alpes",Give me all nuts regions that share a border with the region FRK2 and have the same NUTS level,"['FRK1', 'FRK3', 'FRK4']",90,15,"['ITC1', 'ITC2', 'FRL0', 'FRK1', 'FRC1', 'FRC2', 'FRJ1']",['FRK1'],"['FRK4', 'FRK3']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region FRK2.
+    
+This is the answer retrieved from a Graph-database:
+['ITC1', 'ITC2', 'FRL0', 'FRK1', 'FRC1', 'FRC2', 'FRJ1']
+    
+    ","The NUTS regions that share a border with the region FRK2 are: ITC1, ITC2, FRL0, FRK1, FRC1, FRC2, FRJ1.",132,45,"['FRC2', 'ITC1', 'FRJ1', 'FRK1', 'FRC1', 'FRL0', 'ITC2']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.
+Format your answer as a python list.","intro,details,task_specific,only_codes,python_list",CZ03,"CZ03, Jihozápad",Give me all nuts regions that share a border with the region CZ03 and have the same NUTS level,"['CZ01', 'CZ02', 'CZ04', 'CZ05', 'CZ06', 'CZ07', 'CZ08']",89,35,"['AT12', 'CZ02', 'CZ04', 'CZ06', 'AT31', 'DE22', 'DE23']","['CZ02', 'CZ08', 'CZ07', 'CZ04', 'CZ06', 'CZ05', 'CZ01']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region CZ03.
+    
+This is the answer retrieved from a Graph-database:
+['AT12', 'CZ02', 'CZ04', 'CZ06', 'AT31', 'DE22', 'DE23']
+    
+    ","The NUTS regions that share a border with the region CZ03 are: AT12, CZ02, CZ04, CZ06, AT31, DE22, DE23.",127,37,"['DE22', 'AT31', 'AT12', 'CZ02', 'DE23', 'CZ04', 'CZ06']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.
+Format your answer as a python list.","intro,details,task_specific,only_codes,python_list",DEF0,"DEF0, Schleswig-Holstein",Give me all nuts regions that share a border with the region DEF0 and have the same NUTS level,"['ABC1', 'GHI2', 'JKL3']",89,14,"['DE93', 'DK03', 'DE60', 'DE80']",[],"['GHI2', 'ABC1', 'JKL3']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region DEF0.
+    
+This is the answer retrieved from a Graph-database:
+['DE93', 'DK03', 'DE60', 'DE80']
+    
+    ","The NUTS regions that share a border with the region DEF0 are DE93, DK03, DE60, and DE80.",112,28,"['DE60', 'DE80', 'DK03', 'DE93']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.
+Format your answer as a python list.","intro,details,task_specific,only_codes,python_list",RO41,"RO41, Sud-Vest Oltenia",Give me all nuts regions that share a border with the region RO41 and have the same NUTS level,"['RO12', 'RO21', 'RO22', 'RO31', 'RO42', 'RO51']",89,24,"['RO12', 'RO31', 'RO42', 'BG31']","['RO12', 'RO42', 'RO31', 'RO22', 'RO21']",['RO51'],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region RO41.
+    
+This is the answer retrieved from a Graph-database:
+['RO12', 'RO31', 'RO42', 'BG31']
+    
+    ","The NUTS regions that share a border with region RO41 are: RO12, RO31, RO42, and BG31.",112,28,"['RO31', 'RO12', 'RO42', 'BG31']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.
+Format your answer as a python list.","intro,details,task_specific,only_codes,python_list",DEB3I,"DEB3I, Rhein-Pfalz-Kreis",Give me all nuts regions that share a border with the region DEB3I and have the same NUTS level,"['DEB2', 'DEB3A', 'DEB3B', 'DEB3C', 'DEB3D', 'DEB3E', 'DEB3F', 'DEB3G', 'DEB3H', 'DEB3J', 'DEB3K', 'DEB3L', 'DEB3M', 'DEB3N', 'DEB3O', 'DEB3P', 'DEB3Q', 'DEB3R', 'DEB3S', 'DEB3T', 'DEB3U', 'DEB3V', 'DEB3W', 'DEB3X', 'DEB3Y', 'DEB3Z']",91,155,"['DE123', 'DE715', 'DEB3C', 'DEB3E', 'DEB3H', 'DE126', 'DE128', 'DEB31', 'DEB34', 'DEB36', 'DEB38', 'DEB39']","['DEB3C', 'DEB2', 'DEB3G', 'DEB3D', 'DEB3J', 'DEB3K', 'DEB3B', 'DEB3A', 'DEB3E', 'DEB3F', 'DEB3H']","['DEB3R', 'DEB3O', 'DEB3Z', 'DEB3S', 'DEB3T', 'DEB3Y', 'DEB3P', 'DEB3U', 'DEB3X', 'DEB3N', 'DEB3M', 'DEB3W', 'DEB3V', 'DEB3Q', 'DEB3L']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region DEB3I.
+    
+This is the answer retrieved from a Graph-database:
+['DE123', 'DE715', 'DEB3C', 'DEB3E', 'DEB3H', 'DE126', 'DE128', 'DEB31', 'DEB34', 'DEB36', 'DEB38', 'DEB39']
+    
+    ","The NUTS regions that share a border with the region DEB3I are: DE123, DE715, DEB3C, DEB3E, DEB3H, DE126, DE128, DEB31, DEB34, DEB36, DEB38, DEB39.",157,65,"['DEB3C', 'DEB38', 'DEB34', 'DEB36', 'DE123', 'DE128', 'DEB3E', 'DE126', 'DEB31', 'DEB3H', 'DEB39', 'DE715']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.
+Format your answer as a python list.","intro,details,task_specific,only_codes,python_list",PL515,"PL515, Jeleniogórski",Give me all nuts regions that share a border with the region PL515 and have the same NUTS level,"['PL514', 'PL516', 'PL517', 'PL518']",89,16,"['PL516', 'PL517', 'PL518', 'DED2D', 'CZ051', 'CZ052', 'PL432']","['PL516', 'PL518', 'PL517', 'PL514']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region PL515.
+    
+This is the answer retrieved from a Graph-database:
+['PL516', 'PL517', 'PL518', 'DED2D', 'CZ051', 'CZ052', 'PL432']
+    
+    ","The NUTS regions that share a border with region PL515 are: PL516, PL517, PL518, DED2D, CZ051, CZ052, PL432.",127,38,"['DED2D', 'PL432', 'PL516', 'PL518', 'CZ051', 'PL517', 'CZ052']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.
+Format your answer as a python list.","intro,details,task_specific,only_codes,python_list",LT022,"LT022, Kauno apskritis",Give me all nuts regions that share a border with the region LT022 and have the same NUTS level,"['LT011', 'LT012', 'LT013', 'LT014', 'LT015', 'LT021', 'LT023', 'LT024', 'LT025']",89,36,"['LT011', 'LT021', 'LT024', 'LT025', 'LT026', 'LT027']","['LT023', 'LT011', 'LT021', 'LT025', 'LT024']","['LT014', 'LT015', 'LT013', 'LT012']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region LT022.
+    
+This is the answer retrieved from a Graph-database:
+['LT011', 'LT021', 'LT024', 'LT025', 'LT026', 'LT027']
+    
+    ","The NUTS regions that share a border with LT022 are: LT011, LT021, LT024, LT025, LT026, LT027.",120,32,"['LT011', 'LT026', 'LT021', 'LT025', 'LT027', 'LT024']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.
+Format your answer as a python list.","intro,details,task_specific,only_codes,python_list",SE331,"SE331, Västerbottens län",Give me all nuts regions that share a border with the region SE331 and have the same NUTS level,"['SE332', 'SE333', 'SE334', 'SE342', 'SE343', 'SE344']",89,24,"['SE321', 'SE322', 'SE332']",['SE332'],"['SE333', 'SE344', 'SE343', 'SE342', 'SE334']","The user asked the following question:
+
+Give me all NUTS regions that share a border with the region SE331.
+    
+This is the answer retrieved from a Graph-database:
+['SE321', 'SE322', 'SE332']
+    
+    ","The NUTS regions that share a border with the region SE331 are SE321, SE322, and SE332.",108,25,"['SE322', 'SE321', 'SE332']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.
+Format your answer as a python list.","intro,details,task_specific,only_codes,python_list",IE051,"IE051, Mid-West",Give me all nuts regions that share a border with the region IE051 and have the same NUTS level,"['IE042', 'IE053', 'IE061', 'IE052']",89,16,"['IE052', 'IE053', 'IE042', 'IE063']","['IE053', 'IE042', 'IE061', 'IE052']",[],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region IE051.
+    
+This is the answer retrieved from a Graph-database:
+['IE052', 'IE053', 'IE042', 'IE063']
+    
+    ","The NUTS regions that share a border with region IE051 are IE052, IE053, IE042, and IE063.",112,27,"['IE053', 'IE063', 'IE042', 'IE052']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.
+Format your answer as a python list.","intro,details,task_specific,only_codes,python_list",ES615,"ES615, Huelva",Give me all nuts regions that share a border with the region ES615 and have the same NUTS level,"['ES511', 'ES612', 'ES618', 'ES623']",89,16,"['PT150', 'ES431', 'ES612', 'ES618', 'PT184']","['ES511', 'ES612', 'ES618']",['ES623'],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region ES615.
+    
+This is the answer retrieved from a Graph-database:
+['PT150', 'ES431', 'ES612', 'ES618', 'PT184']
+    
+    ","The NUTS regions that share a border with region ES615 are: PT150, ES431, ES612, ES618, PT184.",116,30,"['ES618', 'ES431', 'PT150', 'ES612', 'PT184']",[]
+"You are a helpful assistant that specializes in the European NUTS regions.
+Your task is to identify neighbors of the region the user is asking about.
+Your answer should only contain the relevant regions' NUTS-codes. Nothing else.
+Format your answer as a python list.","intro,details,task_specific,only_codes,python_list",FRK21,"FRK21, Ain",Give me all nuts regions that share a border with the region FRK21 and have the same NUTS level,"['FRK22', 'FRK23', 'FRK24', 'FRK25', 'FRK26', 'FRK27', 'FRK28', 'FRK29']",90,40,"['FRK24', 'FRK26', 'FRK27', 'FRK28', 'FRC13', 'FRC22']","['FRK25', 'FRK26', 'FRK24', 'FRK23', 'FRK28', 'FRK22', 'FRK27']",['FRK29'],"The user asked the following question:
+
+Give me all NUTS regions that share a border with the region FRK21.
+    
+This is the answer retrieved from a Graph-database:
+['FRK24', 'FRK26', 'FRK27', 'FRK28', 'FRC13', 'FRC22']
+    
+    ","The NUTS regions that share a border with the region FRK21 are: FRK24, FRK26, FRK27, FRK28, FRC13, FRC22.",127,41,"['FRC22', 'FRC13', 'FRK24', 'FRK28', 'FRK26', 'FRK27']",[]

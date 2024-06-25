@@ -1,0 +1,22 @@
+PREFIX ns5: <http://www.w3.org/2002/07/>
+PREFIX eunuts: <http://data.europa.eu/nuts/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+
+select ?geometry_index ?nutscode ?link ?scale ?projection where {
+    ?distribution dct:format <http://publications.europa.eu/resource/authority/file-type/GEOJSON> .
+    #?distribution dct:format ?format .
+    ?distribution dcat:downloadURL ?link .
+    
+    ?geometry_index dcat:distribution ?distribution .
+    ?geometry_index eunuts:scale ?scale .
+    ?geometry_index eunuts:scale "10m" .
+    ?geometry_index eunuts:projection ?projection .
+    ?geometry_index eunuts:projection "WGS84" .
+    
+    ?code <http://purl.org/dc/elements/1.1/identifier> ?nutscode .
+    ?code <https://www.w3.org/ns/locn#geometry> ?geometry_index .
+    ?code <http://www.w3.org/ns/adms#status> ?status .
+    ?code <http://www.w3.org/ns/adms#status> <http://publications.europa.eu/resource/authority/concept-status/CURRENT> .
+    ?code <http://www.w3.org/2002/07/owl#versionInfo> "2024" .
+}

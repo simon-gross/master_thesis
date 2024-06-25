@@ -1,0 +1,17 @@
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?name  WHERE {
+    ?code <http://purl.org/dc/elements/1.1/identifier> "PLACEHOLDER" .
+    ?code geo:hasGeometry ?code_geo .
+    ?code_geo geo:asWKT ?code_geoWKT .
+    ?code <http://data.europa.eu/nuts/level> ?code_level .
+    
+    ?which_code <http://data.europa.eu/nuts/level> ?code_level .
+    ?which_code <http://purl.org/dc/elements/1.1/identifier> ?name .
+    ?which_code geo:hasGeometry ?all_geos .
+    ?all_geos geo:asWKT ?all_WKT .
+    
+    FILTER (geof:sfTouches(?code_geoWKT, ?all_WKT)) .
+}
