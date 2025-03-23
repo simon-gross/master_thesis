@@ -1,0 +1,215 @@
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix geof: <http://www.opengis.net/def/function/geosparql/> .
+@prefix gn: <https://www.geonames.org/ontology#> .
+@prefix nutsdef: <http://data.europa.eu/nuts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nutsdef:level a owl:DatatypeProperty ;
+    rdfs:domain skos:Concept ;
+    skos:definition "A value that indicates the level of the Code; permissible values are '0', '1', '2' or '3'." ;
+    skos:note "The Document defining this data property is only available as a PDF. No IRI is given and there is no other permanent resource for the definition." .
+
+<http://geonuts.eu#> a owl:Ontology .
+
+geof:buffer a fno:Function ;
+    skos:definition "A query function that returns a buffer around the input geometry."@en ;
+    skos:example "Example usage of a SPARQL query: geof:buffer(?wkt, 1000)" ;
+    skos:note "When a function expects a geo:wktLiteral it must be a geo:wktLiteral, a geo:Geometry object will not work." ;
+    skos:prefLabel "buffer"@en ;
+    fno:expects "(geo:wktLiteral xsd:double)" ;
+    fno:returns "(geo:wktLiteral)" .
+
+geof:distance a fno:Function ;
+    skos:definition "A query function that returns the distance between the two closest points of the input geometries."@en ;
+    skos:example "Example usage of a SPARQL query: geof:distance(?wkt, ?wkt2)" ;
+    skos:note "When a function expects a geo:wktLiteral it must be a geo:wktLiteral, a geo:Geometry object will not work." ;
+    skos:prefLabel "distance"@en ;
+    fno:expects "(geo:wktLiteral geo:wktLiteral)" ;
+    fno:returns "(xsd:double)" .
+
+geof:envelope a fno:Function ;
+    skos:definition "A query function that returns the minimum bounding rectangle of the input geometry."@en ;
+    skos:example "Example usage of a SPARQL query: geof:envelope(?wkt)" ;
+    skos:note "When a function expects a geo:wktLiteral it must be a geo:wktLiteral, a geo:Geometry object will not work." ;
+    skos:prefLabel "envelope"@en ;
+    fno:expects "(geo:wktLiteral)" ;
+    fno:returns "(geo:wktLiteral)" .
+
+geof:isEastOf a fno:Function ;
+    skos:definition "A function that identifies if one geographic object is east of another geographic object."@en ;
+    skos:example "Example usage in a SPARQL query: geof:isEastOf(?wkt, ?wkt2)" ;
+    skos:prefLabel "is east of"@en ;
+    fno:expects "(geo:wktLiteral geo:wktLiteral)" ;
+    fno:returns "(xsd:boolean)" .
+
+geof:isNorthOf a fno:Function ;
+    skos:definition "A function that identifies if one geographic object is north of another geographic object."@en ;
+    skos:example "Example usage in a SPARQL query: geof:isNorthOf(?wkt, ?wkt2)" ;
+    skos:prefLabel "is north of"@en ;
+    fno:expects "(geo:wktLiteral geo:wktLiteral)" ;
+    fno:returns "(xsd:boolean)" .
+
+geof:isSouthOf a fno:Function ;
+    skos:definition "A function that identifies if one geographic object is south of another geographic object."@en ;
+    skos:example "Example usage in a SPARQL query: geof:isSouthOf(?wkt, ?wkt2)" ;
+    skos:prefLabel "is south of"@en ;
+    fno:expects "(geo:wktLiteral geo:wktLiteral)" ;
+    fno:returns "(xsd:boolean)" .
+
+geof:isWestOf a fno:Function ;
+    skos:definition "A function that identifies if one geographic object is west of another geographic object."@en ;
+    skos:example "Example usage in a SPARQL query: geof:isWestOf(?wkt, ?wkt2)" ;
+    skos:prefLabel "is west of"@en ;
+    fno:expects "(geo:wktLiteral geo:wktLiteral)" ;
+    fno:returns "(xsd:boolean)" .
+
+geof:sfContains a fno:Function ;
+    skos:definition """A query function that returns true if the first geometry argument spatially contains the second geometry argument.
+
+DE-9IM: T*****FF*"""@en ;
+    skos:example "Example usage of a SPARQL query: geof:sfContains(?wkt, ?wkt2)" ;
+    skos:note "When a function expects a geo:wktLiteral it must be a geo:wktLiteral, a geo:Geometry object will not work." ;
+    skos:prefLabel "contains"@en ;
+    fno:expects "(geo:wktLiteral geo:wktLiteral)" ;
+    fno:returns "(xsd:boolean)" .
+
+geof:sfCrosses a fno:Function ;
+    skos:definition """A query function that returns true if the first geometry argument spatially crosses the second geometry argument.
+
+DE-9IM: T*T***T**"""@en ;
+    skos:example "Example usage of a SPARQL query: geof:sfCrosses(?wkt, ?wkt2)" ;
+    skos:note "When a function expects a geo:wktLiteral it must be a geo:wktLiteral, a geo:Geometry object will not work." ;
+    skos:prefLabel "crosses"@en ;
+    fno:expects "(geo:wktLiteral geo:wktLiteral)" ;
+    fno:returns "(xsd:boolean)" .
+
+geof:sfDisjoint a fno:Function ;
+    skos:definition """A query function that returns true if the input geometries are disjoint. 
+      
+DE-9IM: FF*FF****"""@en ;
+    skos:example "Example usage of a SPARQL query: geof:sfDisjoint(?wkt, ?wkt2)" ;
+    skos:note "When a function expects a geo:wktLiteral it must be a geo:wktLiteral, a geo:Geometry object will not work." ;
+    skos:prefLabel "disjoint"@en ;
+    fno:expects "(geo:wktLiteral geo:wktLiteral)" ;
+    fno:returns "(xsd:boolean)" .
+
+geof:sfEquals a fno:Function ;
+    skos:definition """A query function that returns true if the input geometries are equal. 
+
+DE-9IM: TFFFTFFFT"""@en ;
+    skos:example "Example usage of a SPARQL query: geof:sfEquals(?wkt, ?wkt2)" ;
+    skos:note "When a function expects a geo:wktLiteral it must be a geo:wktLiteral, a geo:Geometry object will not work." ;
+    skos:prefLabel "equals"@en ;
+    fno:expects "(geo:wktLiteral geo:wktLiteral)" ;
+    fno:returns "(xsd:boolean)" .
+
+geof:sfIntersects a fno:Function ;
+    skos:definition """A query function that returns true if the input geometries intersect.
+
+DE-9IM: T******** ^ *T******* ^ ***T***** ^ ****T**** """@en ;
+    skos:example "Example usage of a SPARQL query: geof:sfIntersects(?wkt, ?wkt2)" ;
+    skos:note "When a function expects a geo:wktLiteral it must be a geo:wktLiteral, a geo:Geometry object will not work." ;
+    skos:prefLabel "intersects"@en ;
+    fno:expects "(geo:wktLiteral geo:wktLiteral)" ;
+    fno:returns "(xsd:boolean)" .
+
+geof:sfOverlaps a fno:Function ;
+    skos:definition """A query function that returns true if the first geometry argument spatially overlaps the second geometry argument.
+
+DE-9IM: T*T***T** """@en ;
+    skos:example "Example usage of a SPARQL query: geof:sfOverlaps(?wkt, ?wkt2)" ;
+    skos:note "When a function expects a geo:wktLiteral it must be a geo:wktLiteral, a geo:Geometry object will not work." ;
+    skos:prefLabel "overlaps"@en ;
+    fno:expects "(geo:wktLiteral geo:wktLiteral)" ;
+    fno:returns "(xsd:boolean)" .
+
+geof:sfTouches a fno:Function ;
+    skos:definition """A query function that returns true if the input geometries touch.
+
+DE-9IM: FT******* ^ F**T***** ^ F***T****"""@en ;
+    skos:example "Example usage of a SPARQL query: geof:sfTouches(?wkt, ?wkt2)" ;
+    skos:note "When a function expects a geo:wktLiteral it must be a geo:wktLiteral, a geo:Geometry object will not work." ;
+    skos:prefLabel "touches"@en ;
+    fno:expects "(geo:wktLiteral geo:wktLiteral)" ;
+    fno:returns "(xsd:boolean)" .
+
+geof:sfWithin a fno:Function ;
+    skos:definition """A query function that returns true if the first geometry argument is spatially within the second geometry argument. 
+
+DE-9IM: T*F**F***"""@en ;
+    skos:example "Example usage of a SPARQL query: geof:sfWithin(?wkt, ?wkt2)" ;
+    skos:note "When a function expects a geo:wktLiteral it must be a geo:wktLiteral, a geo:Geometry object will not work." ;
+    skos:prefLabel "within"@en ;
+    fno:expects "(geo:wktLiteral geo:wktLiteral)" ;
+    fno:returns "(xsd:boolean)" .
+
+geo:asWKT a owl:DatatypeProperty ;
+    rdfs:domain geo:Geometry ;
+    rdfs:range geo:wktLiteral ;
+    skos:definition "The WKT serialization of a Geometry"@en ;
+    skos:prefLabel "as WKT"@en .
+
+geo:hasGeometry a owl:ObjectProperty ;
+    rdfs:domain geo:Feature,
+        gn:Feature ;
+    rdfs:range geo:Geometry ;
+    skos:definition "A spatial representation for a given Feature."@en ;
+    skos:prefLabel "has geometry"@en .
+
+skos:notation a owl:DatatypeProperty ;
+    rdfs:label "notation" ;
+    rdfs:domain skos:Concept ;
+    skos:definition "A notation, also known as classification code, is a string of characters such as \"T58.5\" or \"303.4833\" used to uniquely identify a concept within the scope of a given concept scheme."@en .
+
+gn:geonamesID a owl:DatatypeProperty ;
+    rdfs:label "geonames identifier"@en ;
+    rdfs:domain gn:Feature .
+
+gn:name a owl:DatatypeProperty ;
+    rdfs:label "name"@en ;
+    rdfs:comment "The main international name of a feature. The value has no xml:lang tag."@en ;
+    rdfs:domain gn:Feature ;
+    rdfs:range xsd:string .
+
+gn:population a owl:DatatypeProperty ;
+    rdfs:label "population"@en ;
+    rdfs:domain gn:Feature ;
+    rdfs:range xsd:integer .
+
+geo:Feature a owl:Class ;
+    rdfs:label "GeoSPARQL Feature" ;
+    rdfs:subClassOf geo:SpatialObject ;
+    owl:equivalentClass skos:Concept ;
+    skos:definition "A discrete spatial phenomenon in a universe of discourse."@en ;
+    skos:note "A Feature represents a uniquely identifiable phenomenon, for example a river or an apple. While such phenomena (and therefore the Features used to represent them) are bounded, their boundaries may be crisp (e.g., the declared boundaries of a state), vague (e.g., the delineation of a valley versus its neighboring mountains), and change with time (e.g., a storm front). While discrete in nature, Features may be created from continuous observations, such as an isochrone that determines the region that can be reached by ambulance within 5 minutes."@en ;
+    skos:prefLabel "GeoSPARQL Feature"@en .
+
+geo:wktLiteral a rdfs:Datatype ;
+    skos:definition "A Well-known Text serialization of a Geometry object."@en ;
+    skos:prefLabel "Well-known Text Literal"@en .
+
+geo:Geometry a owl:Class ;
+    rdfs:subClassOf geo:SpatialObject ;
+    skos:definition "A coherent set of direct positions in space. The positions are held within a Spatial Reference System (SRS)."@en ;
+    skos:note "Geometries should be represented using the geo:wktLiteral when using geof:Functions" ;
+    skos:prefLabel "Geometry"@en .
+
+skos:Concept a owl:Class ;
+    rdfs:label "NUTS Code"@en ;
+    rdfs:subClassOf geo:SpatialObject ;
+    skos:definition "An idea or notion; a unit of thought."@en .
+
+geo:SpatialObject a owl:Class ;
+    skos:definition "Anything spatial (being or having a shape, position or an extent)."@en ;
+    skos:note "Subclasses of this class are expected to be used for instance data."@en ;
+    skos:prefLabel "Spatial Object"@en .
+
+gn:Feature a owl:Class ;
+    rdfs:label "Geonames Feature"@en ;
+    rdfs:comment "A geographical feature"@en ;
+    rdfs:subClassOf geo:SpatialObject .
+

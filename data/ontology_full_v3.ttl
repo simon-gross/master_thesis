@@ -1,0 +1,143 @@
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix geof: <http://www.opengis.net/def/function/geosparql/> .
+@prefix gn: <https://www.geonames.org/ontology#> .
+@prefix nutsdef: <http://data.europa.eu/nuts/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nutsdef:level a owl:DatatypeProperty ;
+    rdfs:domain skos:Concept .
+
+<http://geonuts.eu#> a owl:Ontology .
+
+geof:buffer a fno:Function ;
+    skos:prefLabel "buffer"@en ;
+    fno:expects "(geo:wktLiteral xsd:double)" ;
+    fno:returns "(geo:wktLiteral)" .
+
+geof:distance a fno:Function ;
+    skos:prefLabel "distance"@en ;
+    fno:expects "(geo:wktLiteral geo:wktLiteral)" ;
+    fno:returns "(xsd:double)" .
+
+geof:envelope a fno:Function ;
+    skos:prefLabel "envelope"@en ;
+    fno:expects "(geo:wktLiteral)" ;
+    fno:returns "(geo:wktLiteral)" .
+
+geof:isEastOf a fno:Function ;
+    skos:prefLabel "is east of"@en ;
+    fno:expects "(geo:wktLiteral geo:wktLiteral)" ;
+    fno:returns "(xsd:boolean)" .
+
+geof:isNorthOf a fno:Function ;
+    skos:prefLabel "is north of"@en ;
+    fno:expects "(geo:wktLiteral geo:wktLiteral)" ;
+    fno:returns "(xsd:boolean)" .
+
+geof:isSouthOf a fno:Function ;
+    skos:prefLabel "is south of"@en ;
+    fno:expects "(geo:wktLiteral geo:wktLiteral)" ;
+    fno:returns "(xsd:boolean)" .
+
+geof:isWestOf a fno:Function ;
+    skos:prefLabel "is west of"@en ;
+    fno:expects "(geo:wktLiteral geo:wktLiteral)" ;
+    fno:returns "(xsd:boolean)" .
+
+geof:sfContains a fno:Function ;
+    skos:prefLabel "contains"@en ;
+    fno:expects "(geo:wktLiteral geo:wktLiteral)" ;
+    fno:returns "(xsd:boolean)" .
+
+geof:sfCrosses a fno:Function ;
+    skos:prefLabel "crosses"@en ;
+    fno:expects "(geo:wktLiteral geo:wktLiteral)" ;
+    fno:returns "(xsd:boolean)" .
+
+geof:sfDisjoint a fno:Function ;
+    skos:prefLabel "disjoint"@en ;
+    fno:expects "(geo:wktLiteral geo:wktLiteral)" ;
+    fno:returns "(xsd:boolean)" .
+
+geof:sfEquals a fno:Function ;
+    skos:prefLabel "equals"@en ;
+    fno:expects "(geo:wktLiteral geo:wktLiteral)" ;
+    fno:returns "(xsd:boolean)" .
+
+geof:sfIntersects a fno:Function ;
+    skos:prefLabel "intersects"@en ;
+    fno:expects "(geo:wktLiteral geo:wktLiteral)" ;
+    fno:returns "(xsd:boolean)" .
+
+geof:sfOverlaps a fno:Function ;
+    skos:prefLabel "overlaps"@en ;
+    fno:expects "(geo:wktLiteral geo:wktLiteral)" ;
+    fno:returns "(xsd:boolean)" .
+
+geof:sfTouches a fno:Function ;
+    skos:prefLabel "touches"@en ;
+    fno:expects "(geo:wktLiteral geo:wktLiteral)" ;
+    fno:returns "(xsd:boolean)" .
+
+geof:sfWithin a fno:Function ;
+    skos:prefLabel "within"@en ;
+    fno:expects "(geo:wktLiteral geo:wktLiteral)" ;
+    fno:returns "(xsd:boolean)" .
+
+geo:asWKT a owl:DatatypeProperty ;
+    rdfs:domain geo:Geometry ;
+    rdfs:range geo:wktLiteral ;
+    skos:prefLabel "as WKT"@en .
+
+geo:hasGeometry a owl:ObjectProperty ;
+    rdfs:domain geo:Feature,
+        gn:Feature ;
+    rdfs:range geo:Geometry ;
+    skos:prefLabel "has geometry"@en .
+
+skos:notation a owl:DatatypeProperty ;
+    rdfs:label "notation" ;
+    rdfs:domain skos:Concept .
+
+gn:geonamesID a owl:DatatypeProperty ;
+    rdfs:label "geonames identifier"@en ;
+    rdfs:domain gn:Feature .
+
+gn:name a owl:DatatypeProperty ;
+    rdfs:label "name"@en ;
+    rdfs:domain gn:Feature ;
+    rdfs:range xsd:string .
+
+gn:population a owl:DatatypeProperty ;
+    rdfs:label "population"@en ;
+    rdfs:domain gn:Feature ;
+    rdfs:range xsd:integer .
+
+geo:Feature a owl:Class ;
+    rdfs:label "GeoSPARQL Feature" ;
+    rdfs:subClassOf geo:SpatialObject ;
+    owl:equivalentClass skos:Concept ;
+    skos:prefLabel "GeoSPARQL Feature"@en .
+
+geo:wktLiteral a rdfs:Datatype ;
+    skos:prefLabel "Well-known Text Literal"@en .
+
+geo:Geometry a owl:Class ;
+    rdfs:subClassOf geo:SpatialObject ;
+    skos:prefLabel "Geometry"@en .
+
+skos:Concept a owl:Class ;
+    rdfs:label "NUTS Code"@en ;
+    rdfs:subClassOf geo:SpatialObject .
+
+geo:SpatialObject a owl:Class ;
+    skos:prefLabel "Spatial Object"@en .
+
+gn:Feature a owl:Class ;
+    rdfs:label "Geonames Feature"@en ;
+    rdfs:subClassOf geo:SpatialObject .
+

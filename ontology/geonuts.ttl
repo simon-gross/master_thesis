@@ -1,0 +1,242 @@
+@prefix : <http://geonuts.eu/#> .
+@prefix gn: <https://www.geonames.org/ontology#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix geof: <http://www.opengis.net/def/function/geosparql/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix nutsdef: <http://data.europa.eu/nuts/> .
+@base <http://geonuts.eu#> .
+
+<http://geonuts.eu#> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2004/02/skos/core#altLabel
+skos:altLabel rdf:type owl:AnnotationProperty ;
+              rdfs:subPropertyOf rdfs:label ;
+              rdfs:range xsd:string .
+
+
+###  http://www.w3.org/2004/02/skos/core#changeNote
+skos:changeNote rdf:type owl:AnnotationProperty ;
+                rdfs:label "change note"@en ;
+                skos:definition "A note about a modification to a concept."@en ;
+                rdfs:subPropertyOf skos:note .
+
+
+###  http://www.w3.org/2004/02/skos/core#definition
+skos:definition rdf:type owl:AnnotationProperty ;
+                rdfs:label "definition"@en ;
+                skos:definition "A statement or formal explanation of the meaning of a concept."@en ;
+                rdfs:subPropertyOf skos:note .
+
+
+###  http://www.w3.org/2004/02/skos/core#editorialNote
+skos:editorialNote rdf:type owl:AnnotationProperty ;
+                   rdfs:label "editorial note"@en ;
+                   skos:definition "A note for an editor, translator or maintainer of the vocabulary."@en ;
+                   rdfs:subPropertyOf skos:note .
+
+
+###  http://www.w3.org/2004/02/skos/core#hiddenLabel
+skos:hiddenLabel rdf:type owl:AnnotationProperty ;
+                 rdfs:comment "The range of skos:hiddenLabel is the class of RDF plain literals."@en ,
+                              "skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise disjoint properties."@en ;
+                 rdfs:label "hidden label"@en ;
+                 skos:definition "A lexical label for a resource that should be hidden when generating visual displays of the resource, but should still be accessible to free text search operations."@en ;
+                 rdfs:subPropertyOf rdfs:label .
+
+
+###  http://www.w3.org/2004/02/skos/core#historyNote
+skos:historyNote rdf:type owl:AnnotationProperty ;
+                 rdfs:label "history note"@en ;
+                 skos:definition "A note about the past state/use/meaning of a concept."@en ;
+                 rdfs:subPropertyOf skos:note .
+
+
+###  http://www.w3.org/2004/02/skos/core#note
+skos:note rdf:type owl:AnnotationProperty ;
+          rdfs:label "note"@en ;
+          skos:definition "A general note, for any purpose."@en ;
+          skos:scopeNote "This property may be used directly, or as a super-property for more specific note types."@en .
+
+
+###  http://www.w3.org/2004/02/skos/core#prefLabel
+skos:prefLabel rdf:type owl:AnnotationProperty ;
+               rdfs:subPropertyOf rdfs:label ;
+               rdfs:range xsd:string .
+
+
+###  http://www.w3.org/2004/02/skos/core#scopeNote
+skos:scopeNote rdf:type owl:AnnotationProperty ;
+               rdfs:label "scope note"@en ;
+               skos:definition "A note that helps to clarify the meaning and/or the use of a concept."@en ;
+               rdfs:subPropertyOf skos:note .
+
+
+###  https://www.geonames.org/ontology#alternateName
+gn:alternateName rdf:type owl:AnnotationProperty ;
+                 rdfs:range xsd:string .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.opengis.net/ont/geosparql#wktLiteral
+geo:wktLiteral rdf:type rdfs:Datatype ;
+               skos:definition "A Well-known Text serialization of a Geometry object."@en ;
+               skos:prefLabel "Well-known Text Literal"@en .
+
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.opengis.net/ont/geosparql#hasGeometry
+geo:hasGeometry rdf:type owl:ObjectProperty ;
+                rdfs:domain geo:Feature ,
+			    gn:Feature ;
+                rdfs:range geo:Geometry ;
+                skos:definition "A spatial representation for a given Feature."@en ;
+                skos:prefLabel "has geometry"@en .
+
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://data.europa.eu/nuts/level
+nutsdef:level rdf:type owl:DatatypeProperty ;
+              rdfs:domain skos:Concept ;
+              skos:definition "A value that indicates the level of the Code; permissible values are '0', '1', '2' or '3'." ;
+              skos:note "The Document defining this data property is only available as a PDF. No IRI is given and there is no other permanent resource for the definition." .
+
+
+###  http://www.opengis.net/ont/geosparql#asWKT
+geo:asWKT rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:domain geo:Geometry ;
+          rdfs:range geo:wktLiteral ;
+          skos:definition "The WKT serialization of a Geometry"@en ;
+          skos:prefLabel "as WKT"@en .
+
+
+
+###  http://www.w3.org/2004/02/skos/core#altLabel
+skos:altLabel rdf:type owl:DatatypeProperty ;
+              rdfs:domain skos:Concept .
+
+
+###  http://www.w3.org/2004/02/skos/core#notation
+skos:notation rdf:type owl:DatatypeProperty ;
+              rdfs:domain skos:Concept ;
+              rdfs:label "notation" ;
+              skos:definition "A notation, also known as classification code, is a string of characters such as \"T58.5\" or \"303.4833\" used to uniquely identify a concept within the scope of a given concept scheme."@en .
+
+
+###  http://www.w3.org/2004/02/skos/core#prefLabel
+skos:prefLabel rdf:type owl:DatatypeProperty ;
+               rdfs:domain skos:Concept .
+
+
+###  https://www.geonames.org/ontology#alternateName
+gn:alternateName rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdfs:domain gn:Feature .
+
+
+###  https://www.geonames.org/ontology#geonamesID
+gn:geonamesID rdf:type owl:DatatypeProperty ;
+              rdfs:domain gn:Feature ;
+              rdfs:label "geonames identifier"@en ;
+              skos:historyNote "Added in version 3.1"@en .
+
+
+###  https://www.geonames.org/ontology#name
+gn:name rdf:type owl:DatatypeProperty ;
+        rdfs:domain gn:Feature ;
+        rdfs:range xsd:string ;
+        rdfs:comment "The main international name of a feature. The value has no xml:lang tag."@en ;
+        rdfs:label "name"@en .
+
+
+###  https://www.geonames.org/ontology#population
+gn:population rdf:type owl:DatatypeProperty ;
+              rdfs:domain gn:Feature ;
+              rdfs:range xsd:integer ;
+              rdfs:label "population"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.opengis.net/ont/geosparql#Feature
+geo:Feature rdf:type owl:Class ;
+            owl:equivalentClass skos:Concept ;
+            rdfs:subClassOf geo:SpatialObject ;
+            owl:disjointWith geo:Geometry ;
+            rdfs:label "GeoSPARQL Feature" ;
+            skos:definition "A discrete spatial phenomenon in a universe of discourse."@en ;
+            skos:note "A Feature represents a uniquely identifiable phenomenon, for example a river or an apple. While such phenomena (and therefore the Features used to represent them) are bounded, their boundaries may be crisp (e.g., the declared boundaries of a state), vague (e.g., the delineation of a valley versus its neighboring mountains), and change with time (e.g., a storm front). While discrete in nature, Features may be created from continuous observations, such as an isochrone that determines the region that can be reached by ambulance within 5 minutes."@en ;
+            skos:prefLabel "GeoSPARQL Feature"@en .
+
+
+###  http://www.opengis.net/ont/geosparql#Geometry
+geo:Geometry rdf:type owl:Class ;
+             rdfs:subClassOf geo:SpatialObject ;
+             skos:definition "A coherent set of direct positions in space. The positions are held within a Spatial Reference System (SRS)."@en ;
+             skos:note "Geometry can be used as a representation of the shape, extent or location of a Feature and may exist as a self-contained entity."@en ;
+             skos:prefLabel "Geometry"@en .
+
+
+###  http://www.opengis.net/ont/geosparql#SpatialObject
+geo:SpatialObject rdf:type owl:Class ;
+                  skos:definition "Anything spatial (being or having a shape, position or an extent)."@en ;
+                  skos:note "Subclasses of this class are expected to be used for instance data."@en ;
+                  skos:prefLabel "Spatial Object"@en .
+
+
+###  http://www.w3.org/2004/02/skos/core#Concept
+skos:Concept rdf:type owl:Class ;
+             rdfs:subClassOf geo:SpatialObject ;
+             rdfs:label "NUTS Code"@en ;
+             skos:definition "An idea or notion; a unit of thought."@en .
+
+
+###  https://www.geonames.org/ontology#Feature
+gn:Feature rdf:type owl:Class ;
+           rdfs:subClassOf geo:SpatialObject ;
+           rdfs:comment "A geographical feature"@en ;
+           rdfs:label "Geonames Feature"@en ;
+           skos:historyNote "Modified in version 3.1 : The cardinality constraints on feature code, feature class are relaxed on this class, and put on the specific subclass Geonames Feature. This class and attached properties can therefore be used for features not necessarily identified in the Geoanmes data base"@en .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+skos:altLabel rdfs:comment "The range of skos:altLabel is the class of RDF plain literals."@en ,
+                           "skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise disjoint properties."@en ;
+              rdfs:label "alternative label"@en ;
+              skos:definition "An alternative lexical label for a resource."@en .
+
+
+skos:prefLabel rdfs:comment "A resource has no more than one value of skos:prefLabel per language tag, and no more than one value of skos:prefLabel without language tag."@en ,
+                            "The range of skos:prefLabel is the class of RDF plain literals."@en ,
+                            """skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise
+      disjoint properties."""@en ;
+               rdfs:label "preferred label"@en ;
+               skos:definition "The preferred lexical label for a resource, in a given language."@en .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi

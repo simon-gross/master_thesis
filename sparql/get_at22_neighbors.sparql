@@ -1,0 +1,17 @@
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX : <http://geonuts.eu/geometry/>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+
+SELECT ?which ?all_WKT WHERE {
+    ?steiermark <http://purl.org/dc/elements/1.1/identifier> "AT22" .
+    ?steiermark geo:hasGeometry ?steiermark_geo .
+    ?steiermark_geo geo:asWKT ?steiermark_geoWKT .
+    ?steiermark <http://data.europa.eu/nuts/level> ?steiermark_level .
+    
+    ?which geo:hasGeometry ?all_geos .
+    ?all_geos geo:asWKT ?all_WKT .
+    
+    ?which <http://data.europa.eu/nuts/level> ?steiermark_level .
+    
+    FILTER (geof:sfTouches(?steiermark_geoWKT, ?all_WKT)) .
+}
