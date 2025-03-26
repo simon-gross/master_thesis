@@ -1,2 +1,4 @@
 data/with_assessment.pkl
 data/with_all_answers.pkl
+.ipynb_checkpoints
+functions/__pycache__
