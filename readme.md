@@ -1,6 +1,11 @@
 # Analyzing the Potential of Geographic Knowledge Graphs for Advancing Spatial Capabilities of RAG-based Large Language Model Applications
-Master Thesis by Simon Groß\
-University of Vienna
+Master Thesis by Simon Groß
+
+University of Vienna\
+Department of Geography and Regional Research\
+Spatial Data Science and Geoinformation
+
+Supervisor: Univ.-Prof. Dr. Krzysztof Janowicz
 
 
 This repository provides the code to reproduce the findings presented in the thesis under the title above.
@@ -77,7 +82,7 @@ GraphDB is needed to run this experiment. They offer a free version of the datab
 - [09Notebook](./09_results_RAG.ipynb): The results for the RAG experiment are presented **(RQ2)**.
 
 # Run the demo
-Make sure GraphDB is running on Port 7200 with the repository "geonuts" ready.
+Make sure GraphDB is running on Port 7200 with the repository "geonuts" ready and the environment variable OPENAI1 is set.
 ```bash
 cd ./path/to/folder/master_thesis
 conda activate spatial_rag_kg
