@@ -1,14 +1,31 @@
 # Analyzing the Potential of Geographic Knowledge Graphs for Advancing Spatial Capabilities of RAG-based Large Language Model Applications
 Master Thesis by Simon Groß\
-University of Vienna\
+University of Vienna
 
 
 This repository provides the code to reproduce the findings presented in the thesis under the title above.
 ## Abstract
-...
+Large Language Models (LLM) gained immense popularity during the last years. While
+exhibiting impressive abilities, also within GIScience, they suffer from so called hallu-
+cinations. Retrieval Augmented Generation (RAG) emerged as an approach to miti-
+gate these by retrieving factual documents and giving them as context to the LLM.
+GraphRAG is a recent variation the contextual information is retrieved from knowl-
+edge graphs (KG) instead. This work assesses the potential of GraphRAG for spatially
+explicit tasks. Three spatial concepts - topology, directionality and proximity - are an-
+alyzed through targeted questions. A GraphRAG system is set up that autonomously
+retrieves the answers to the questions from the KG. The question together with the
+KGs ontology are given to a LLM with the instructions to generate a GeoSPARQL
+query (including functions if applicable) that is executed automatically on a GraphDB
+instance containing the needed data. During the experiment, multiple parameters
+(model, temperature, etc.) are recorded and their effects on performance are evalu-
+ated. This approach outperforms a non-RAG setup by a wide margin. Overall the f1
+scores are 0.81 for RAG compared to 0.37 for non-RAG when using the best perform-
+ing model-temperature combination. For easier questions the RAG approach reaches
+f1 scores > 0.95. This study illustrates the potential of GraphRAG with the presented
+retrieval approach for advancing spatial capabilities of LLMs.
 
 ## Setup
-Instructions for setting up the environment or installing necessary dependencies to run the project. The installation is basedon the anaconda package manager
+Instructions for setting up the environment or installing necessary dependencies to run the project. The installation is based on the anaconda package manager
 
 ```bash
 # Open anaconda prompt
@@ -28,7 +45,7 @@ cd ./path/to/folder/master_thesis
 conda create --name spatial_rag_kg --file requirements.txt
 conda activate spatial_rag_kg
 
-# to execute the notebooks run in the shell:
+# to open the notebooks run in the shell:
 jupyter-notebook
 ```
 
@@ -59,6 +76,13 @@ GraphDB is needed to run this experiment. They offer a free version of the datab
 - [08Notebook](./08_results_non_rag.ipynb): The results for the non-RAG experiment **(RQ1)** are presented.
 - [09Notebook](./09_results_RAG.ipynb): The results for the RAG experiment are presented **(RQ2)**.
 
+# Run the demo
+Make sure GraphDB is running on Port 7200 with the repository "geonuts" ready.
+```bash
+cd ./path/to/folder/master_thesis
+conda activate spatial_rag_kg
+python demo.py
+```
 
 # Acknowledgement
 OpenAI awarded a grant of 200 $ under the "OpenAI Researcher Access Program" for this thesis which covered all costs for the presented experiments.
