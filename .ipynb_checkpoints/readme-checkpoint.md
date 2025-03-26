@@ -7,7 +7,7 @@ This repository provides the code to reproduce the findings presented in the the
 ## Abstract
 ...
 
-## Setup
+# Setup
 Instructions for setting up the environment or installing necessary dependencies to run the project. The installation is basedon the anaconda package manager
 
 ```bash
@@ -61,4 +61,4 @@ GraphDB is needed to run this experiment. They offer a free version of the datab
 
 
 # Acknowledgement
-OpenAI awarded a grant of 200 $ under the "OpenAI Researcher Access Program" for this thesis which covered all costs for the presented experiments.
+OpenAI awarded a grant of 200 $ under the "OpenAI Researcher Access Program" for this thesis which covered all costs for the presented experiment experiment.
