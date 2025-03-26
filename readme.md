@@ -42,11 +42,7 @@ cd ./path/to/folder
 # Clone the repository
 git clone git@github.com:simon-gross/master_thesis.git
 cd master_thesis
-```
 
-### In the Anaconda Prompt Shell execute
-```bash
-cd ./path/to/folder/master_thesis
 conda create --name spatial_rag_kg --file requirements.txt
 conda activate spatial_rag_kg
 
